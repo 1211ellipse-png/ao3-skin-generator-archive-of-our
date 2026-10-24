@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>AO3 workskin </title>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>AO3 皮肤制作器</title>
 <style>
 :root{font-family:Arial,"Microsoft YaHei",sans-serif;font-size:14px;color:#262b30;background:#f5f6f8;--accent:#9b2936;--border:#e1e4e8;--muted:#68717b}*{box-sizing:border-box}body{margin:0}button,input,select,textarea{font:inherit}button{cursor:pointer}button,a,input,textarea,select,summary{outline-offset:3px}button:focus-visible,a:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-visible,summary:focus-visible{outline:2px solid #9b2936}button:disabled{opacity:.45;cursor:not-allowed}button{border:1px solid var(--border);background:#fff;color:inherit;border-radius:7px;padding:9px 13px;line-height:1.4}button:hover:not(:disabled){border-color:#aeb4bd;background:#fafafa}.primary{background:var(--accent);border-color:var(--accent);color:#fff}.primary:hover:not(:disabled){background:#80212d;border-color:#80212d}a{color:#97303a}input[type=text],input[type=number],select,textarea{width:100%;border:1px solid #cdd2d8;border-radius:6px;padding:10px 11px;background:#fff;color:#262b30}textarea{resize:vertical;line-height:1.7}input[type=checkbox]{accent-color:var(--accent);width:16px;height:16px}input[type=color]{height:36px;width:43px;border:1px solid #cdd2d8;border-radius:5px;padding:3px;background:#fff}h1,h2,h3,p{margin-top:0}h1{font-size:26px;font-weight:700;line-height:1.5;margin-bottom:8px}h2{font-size:18px;margin-bottom:8px}h3{font-size:14px}.muted{color:var(--muted);line-height:1.7;font-size:12px}small{font-size:11px;line-height:1.7;color:var(--muted)}[hidden]{display:none!important}.header{height:64px;padding:0 25px;border-bottom:1px solid var(--border);background:#fff;display:flex;align-items:center;justify-content:space-between;gap:15px;position:sticky;top:0;z-index:5}.brand{font-size:16px;font-weight:700;display:flex;align-items:center;gap:10px}.brand-mark{background:var(--accent);color:white;border-radius:5px;font-size:12px;padding:5px 7px}.header-actions{display:flex;align-items:center;gap:8px}.quiet{border:0;background:transparent;color:var(--muted);font-size:12px;padding:7px}.layout{display:grid;grid-template-columns:minmax(0,1fr) 310px;min-height:calc(100vh - 64px)}.main{min-width:0;padding:28px;max-width:1600px;width:100%;margin:0 auto}.copy-rail{border-left:1px solid var(--border);background:#fff;height:calc(100vh - 64px);position:sticky;top:64px;overflow:auto;padding:24px 20px;display:flex;flex-direction:column;gap:17px}.rail-title{display:flex;justify-content:space-between;align-items:center;gap:8px}.rail-title h2{font-size:16px;margin:0}.status{font-size:11px;padding:4px 7px;border-radius:4px;color:#41694e;background:#eef5f0;white-space:nowrap}.status.error{color:#ac2d36;background:#fff0f0}.status.idle{color:#6d737a;background:#f0f1f3}.export-card{padding:15px;border:1px solid var(--border);border-radius:8px}.export-card h3{margin:0 0 6px}.export-card p{font-size:12px;color:#68717b;line-height:1.8;margin-bottom:12px}.export-card>.primary{width:100%;text-align:center}.source-toggle{margin-top:12px;color:#68717b;font-size:11px}.source-toggle summary{cursor:pointer}.output-code{width:100%;height:130px;font:11px/1.6 Consolas,monospace;white-space:pre;margin-top:8px;background:#f9fafb}.download-link{border:0;background:transparent;padding:7px 0 0;font-size:11px;text-decoration:underline;color:#69727b}.rail-help{font-size:12px;color:#68717b;line-height:1.9;padding:0 2px}.rail-help strong{color:#30363d}.rail-help p{margin:0 0 8px}.warnings{font-size:12px;line-height:1.8;border:1px solid #efb2b5;border-radius:6px;padding:11px;background:#fff2f2;color:#a32230}.warnings ul{margin:5px 0;padding-left:17px}.footer-help{font-size:11px;color:#7d838b;line-height:1.8;margin-top:auto}.start-heading{display:flex;gap:20px;align-items:center;justify-content:space-between;margin-bottom:24px}.start-heading p{margin-bottom:0;color:#65707a;font-size:13px;line-height:1.9}.continue{white-space:nowrap}.start-options{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:26px}.mode-card{padding:21px;text-align:left;display:block;border-radius:10px;border:1px solid #d4d9df;min-height:128px;position:relative}.mode-card.selected{border:2px solid var(--accent);padding:20px;background:#fffafb}.mode-card strong{font-size:16px;display:block;margin-bottom:9px}.mode-card span{color:#69727b;font-size:12px;line-height:1.8;display:block;padding-right:24px}.mode-card .arrow{position:absolute;right:20px;top:21px;color:#9b2936;font-size:20px}.section-head{display:flex;align-items:center;justify-content:space-between;gap:14px;margin-bottom:14px}.section-head h2{font-size:16px;margin:0}.filters{display:flex;gap:5px}.filter{padding:5px 10px;font-size:12px;border-color:transparent;background:transparent;color:#737b85}.filter[aria-pressed=true]{background:#e9ebee;border-color:#e9ebee;color:#222}.template-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:13px}.template-card{padding:0;text-align:left;border-radius:9px;overflow:hidden;display:flex;flex-direction:column;min-width:0;transition:border-color .15s}.template-card:hover{border-color:#9b2936!important}.thumb{height:100px;background:#f0f1f4;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:7px;padding:13px;overflow:hidden;width:100%}.thumb .mini{font-size:10px;line-height:1.6;background:#fff;border:1px solid #e4e5e7;padding:5px 9px;border-radius:4px;color:#69727b;max-width:90%;white-space:nowrap}.thumb .bubble-left{align-self:flex-start;background:#fff}.thumb .bubble-right{align-self:flex-end;background:#f1dfe2;color:#7e3740;border-color:#ead0d4}.thumb .paper-mini{border-radius:0;background:#fffaf0;border-color:#e4d8c4;width:80%;padding:10px;text-align:center}.thumb .text-line{padding:0;background:transparent;border:0}.thumb .red-text{color:#9b2936}.thumb .fold{width:90%;background:white;color:#9b2936}.thumb .social-mini{padding:7px 12px;background:white;border-radius:7px;width:90%}.card-copy{padding:13px 14px;display:block;background:#fff;flex:1}.card-copy strong{display:block;font-size:13px;margin-bottom:5px}.card-copy small{display:block;font-size:11px;color:#777f88}.start-foot{font-size:11px;color:#7e8790;line-height:1.9;margin:20px 0 0}.editor-top{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:18px}.editor-name{display:flex;align-items:center;gap:10px}.editor-name h1{font-size:20px;margin:0}.back{font-size:12px;padding:7px 9px}.toolbar{display:flex;gap:7px;flex-wrap:wrap}.toolbar button{font-size:12px;padding:7px 9px}.editor-grid{display:grid;grid-template-columns:300px minmax(0,1fr);gap:18px;align-items:start}.edit-panel,.preview-panel{border:1px solid var(--border);background:#fff;border-radius:9px;overflow:hidden;min-width:0}.tabs{display:flex;border-bottom:1px solid var(--border);padding:0 14px;gap:8px}.tab{flex:1;border:0;border-radius:0;border-bottom:2px solid transparent;padding:15px 2px;font-size:13px;color:#727b84}.tab[aria-selected=true]{border-bottom-color:var(--accent);color:var(--accent);font-weight:700}.edit-body{padding:18px}.field{display:block;margin:0 0 17px}.field>span{font-size:12px;display:block;font-weight:600;margin-bottom:8px}.field small{display:block;margin-top:6px}.field textarea{min-height:115px}.color-row{display:flex;align-items:center;gap:10px}.color-value{font:12px Consolas,monospace;color:#727b84}.check{display:flex;align-items:center;gap:7px;margin:0 0 16px;font-size:12px;line-height:1.7}.field-row{display:flex;gap:8px;align-items:center}.field-row>*{min-width:0}.field-row input{flex:1}.note{font-size:11px;line-height:1.8;color:#66705f;background:#f3f6f0;padding:11px 12px;border-radius:6px;margin-top:16px}.next{width:100%;margin-top:12px}.preview-panel{position:sticky;top:85px}.preview-head{padding:15px 16px;border-bottom:1px solid var(--border);display:flex;align-items:center;justify-content:space-between;gap:8px;font-size:12px}.preview-head .check{margin:0;font-size:11px}.preview-tools{display:flex;align-items:center;justify-content:space-between;padding:9px 12px;gap:8px;background:#f8f9fa;border-bottom:1px solid var(--border);font-size:11px;color:#7b838b}.preview-tools button{font-size:11px;padding:4px 7px}.preview-stage{background:#e9ebee;padding:16px;min-height:450px;display:flex;justify-content:center}.preview-paper{width:100%;max-width:900px;background:#fff}.preview-paper.mobile{max-width:320px}iframe{display:block;border:0;background:#fff;width:100%;height:470px}.preview-caption{font-size:11px;color:#79828b;padding:12px 14px;line-height:1.8;border-top:1px solid var(--border)}.code-editor{font:12px/1.8 Consolas,"Courier New",monospace;min-height:270px!important;white-space:pre;tab-size:2;background:#fbfcfd}.field-code{margin-bottom:18px}.editor-label{display:flex;align-items:center;justify-content:space-between;margin-bottom:7px;font-size:12px;font-weight:600}.editor-label button{padding:3px 7px;font-size:10px;color:#68717b}.field-code textarea[aria-invalid=true]{border:2px solid #c13240;background:#fff6f6}.code-help{font-size:11px;color:#78818a;line-height:1.9}.advanced-options{margin-top:18px;border-top:1px solid var(--border);padding-top:15px}.advanced-options summary{font-size:12px;cursor:pointer;color:#6c747d;margin-bottom:12px}.role-row,.message-row{border:1px solid var(--border);padding:11px;border-radius:7px;margin-bottom:10px;background:#fafbfc}.role-row .role-name{width:100%;padding:8px;font-size:12px}.role-row .color-row{margin-top:7px}.role-top,.message-top{display:flex;align-items:center;justify-content:space-between;gap:7px;margin-bottom:8px;font-size:11px;color:#747e87}.icon-btn{font-size:11px;padding:3px 7px;background:transparent}.message-row select{padding:7px;font-size:12px;margin-bottom:8px}.message-row textarea{min-height:72px;font-size:12px;margin-bottom:7px}.message-row input{font-size:11px;padding:6px}.add{border-style:dashed;width:100%;font-size:12px;color:#6b737b;padding:9px}.subhead{font-size:12px;margin:0 0 12px;font-weight:600}.divider{border:0;border-top:1px solid var(--border);margin:20px 0}.empty-info{font-size:12px;color:#7a838e;line-height:1.9}.toast{position:fixed;left:50%;bottom:20px;transform:translateX(-50%);max-width:90%;padding:12px 18px;border-radius:7px;background:#30363d;color:white;font-size:12px;z-index:20;box-shadow:0 4px 14px #0002}dialog{border:1px solid var(--border);border-radius:10px;max-width:1000px;width:calc(100% - 40px);padding:24px;max-height:85vh;overflow:auto;color:#30363d}dialog::backdrop{background:#1c26305c}.dialog-head{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:15px}.dialog-head h2{margin:0}.research-table{border-collapse:collapse;width:100%;font-size:12px;line-height:1.8;margin:20px 0}.research-table th,.research-table td{border:1px solid var(--border);text-align:left;vertical-align:top;padding:10px}.research-table th{background:#f6f7f9}.license{white-space:pre-wrap;word-break:break-word;background:#f8f9fa;padding:14px;font:11px/1.8 Consolas,monospace}.license-details{font-size:12px;line-height:1.8;margin:12px 0}.small-actions{display:flex;gap:5px}.workspace-only{display:none}.editing .workspace-only{display:inline-block}.dirty-note{font-size:10px;color:#858d97;margin:7px 0 0}.file-status{font-size:11px;color:#737e89}.research-table-wrap{overflow:auto}
 @media(min-width:1181px){.free-writing .editor-grid{grid-template-columns:minmax(340px,1fr) minmax(280px,1fr)}}
@@ -13,31 +13,43 @@
 .advice{font-size:12px;line-height:1.8;border:1px solid #e6d3a3;border-radius:6px;padding:11px;background:#fff9e8;color:#6b5311;margin-top:10px}.advice ul{margin:6px 0 0;padding-left:18px}.advice li{margin:4px 0}.advice button{margin-left:8px;font-size:11px;padding:2px 8px;border:1px solid #d9c27a;border-radius:5px;background:#fff}.palette{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 16px}.palette-title{width:100%;margin:0;font-size:12px;color:var(--muted)}.palette button{display:flex;align-items:center;gap:6px;padding:5px 9px;border:1px solid var(--border);border-radius:7px;background:#fff;font-size:12px}.palette i{display:inline-block;width:14px;height:14px;border-radius:50%;border:1px solid rgba(0,0,0,.18)}
 .simple-start{display:flex;align-items:center;justify-content:space-between;gap:12px;font-size:12px;color:#69727b;margin-bottom:20px}.more-templates{margin-top:22px;border:1px solid #e1e4e8;border-radius:9px;padding:15px;background:#fff}.more-templates>summary{cursor:pointer;font-size:13px;font-weight:600}.more-templates[open]>summary{margin-bottom:14px}.fine-style{padding:13px 0;border-top:1px solid #e1e4e8}.fine-style>summary{cursor:pointer;font-size:12px;color:#68717b;margin-bottom:16px}.editor-more{position:relative;font-size:12px}.editor-more>summary{cursor:pointer;background:white;border:1px solid #d6dbe1;border-radius:6px;padding:8px 11px}.editor-more[open]>div{position:absolute;right:0;top:40px;z-index:4;width:180px;padding:10px;background:white;border:1px solid #e1e4e8;box-shadow:0 6px 16px #0001;border-radius:8px}.editor-more button{display:block;width:100%;margin:5px 0;text-align:left}.review-filter{display:flex;align-items:center;gap:10px;font-size:12px;margin:12px 0}.review-filter select{max-width:260px}.review-success{background:#eff5ee;color:#426742;padding:15px;border-radius:7px;font-size:12px;line-height:1.8}.bulk-reading{margin:18px 0;font-size:12px}.bulk-reading>summary{cursor:pointer;font-weight:600}.bulk-reading>div{max-height:280px;overflow:auto;padding:12px;border:1px solid #e1e4e8;border-radius:6px;margin-top:10px;white-space:pre-wrap;overflow-wrap:anywhere;line-height:1.8}.carry-note{padding:12px;border:1px solid #ddc89d;background:#fff9ed;border-radius:7px;font-size:12px;line-height:1.8;margin-bottom:15px}.carry-note p{margin-bottom:4px}.carry-note button{padding:6px}.source-toggle{font-size:11px}#copy-progress:empty{display:none}.section-head .filters{display:none}@media(max-width:760px){.simple-start{align-items:flex-start;flex-direction:column}.editor-more[open]>div{left:0;right:auto}.bulk-apply-bar select{min-width:100px}}
 .interaction-editor{margin:20px 0}.interaction-editor h3{font-size:13px}.interaction-editor .field{margin-bottom:12px}.interaction-help{font-size:12px;line-height:1.8;background:#f2f5f7;color:#55616d;padding:12px;border-radius:7px}.interaction-raw{border-top:1px solid #e1e4e8;padding-top:14px;margin-top:18px;font-size:12px}.interaction-raw>summary{cursor:pointer;color:#68717b;margin-bottom:14px}.interaction-raw textarea{min-height:180px}.interaction-editor .message-row{background:#fafbfc}.interaction-editor input,.interaction-editor textarea{font-size:12px}
+.template-group{margin-top:22px}.template-group h3{font-size:14px;color:#4c555e;margin:0 0 12px}.template-badge{display:inline-block;margin-top:10px;padding:3px 6px;border-radius:4px;background:#f2f4f6;color:#5c6671;font-size:10px;line-height:1.6}.record-field{padding:12px 10px;margin-bottom:12px;border-left:3px solid #d7dce1;background:#fff}.record-field .field{margin-bottom:12px}.structured-editor h3{margin-top:16px}.content-actions{border-top:1px solid #e1e4e8;margin-top:22px;padding-top:10px;display:flex;gap:10px;flex-wrap:wrap}.content-actions button{font-size:11px}.capability-note{font-size:12px;line-height:1.8;padding:10px 12px;background:#f4f6f8;border-radius:6px;color:#555f69}.motion-settings{padding:12px;border:1px solid #e1e4e8;border-radius:6px;margin-bottom:18px;background:#fafbfc}.motion-settings .field{margin-bottom:8px}.motion-settings p{margin:0;font-size:11px}.compatibility-note{font-size:11px;line-height:1.9;color:#6d6260;background:#faf6ef;border:1px solid #ece1cf;border-radius:6px;padding:10px;margin:0}.footnote-tool{padding:12px;border:1px solid #e1e4e8;border-radius:6px;margin-bottom:18px}.footnote-tool .field{margin-bottom:10px}.rail-title{flex-wrap:wrap}.sample-player{width:90%;max-width:230px;background:#242531;color:#eee;border-radius:9px;padding:12px;font-size:11px;display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px}.sample-player i{height:4px;background:linear-gradient(to right,#ed7985 35%,#535360 35%);width:100%;border-radius:3px}.sample-player b{color:#ed7985}.sample-paper{position:relative;width:85%;border:1px solid #d2bda2;background:#fff6e6;padding:12px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;font-size:11px}.sample-paper b{color:#922c35}.sample-paper i{width:100%;border-top:1px dashed #d2bda2;padding-top:7px;font-size:10px;font-style:normal}.sample-fold{width:90%;background:white;padding:7px 10px;border:1px solid #dbd4cd;border-radius:4px;color:#922c35;font-size:10px}.sample-fold.secondary{width:80%;margin-left:10%;color:#777}.sample-memo{width:85%;padding:8px 12px;background:#fff6d9;border-top:4px solid #d5b665;display:flex;flex-direction:column;gap:5px;font-size:10px}.sample-notice{width:95%;display:flex;gap:9px;align-items:center;background:white;border:1px solid #d6dce2;border-radius:9px;padding:11px;font-size:10px}.sample-notice b{color:#3f6c72}.sample-notice span{flex:1}.sample-notice i{color:#c72537;font-size:8px}.more-templates .template-grid{grid-template-columns:repeat(2,minmax(0,1fr))}@media(max-width:760px){.more-templates .template-grid{grid-template-columns:1fr}.template-group{margin-top:18px}.message-top{flex-wrap:wrap}.message-top>span{display:flex;flex-wrap:wrap;gap:3px}}
+.optional-content{margin:18px 0;border-top:1px solid #e1e4e8;padding-top:14px}.optional-content>summary{cursor:pointer;font-size:12px;font-weight:600;margin-bottom:14px}.content-actions{border-top:0;border-bottom:1px solid #e1e4e8;margin:0 0 18px;padding:0 0 8px}.sample-paper,.sample-notice,.sample-player{box-sizing:border-box}
+
+.sample-reading{width:88%;background:#fff8ed;border:1px solid #d9c7b0;padding:12px 14px;display:flex;flex-direction:column;gap:8px;font-size:11px;color:#6c5042}.sample-reading b{color:#922c35;font-size:12px}.sample-afterreading{background:#342725;color:#f8e5d1}.sample-afterreading b{color:#f2b57c}.sample-ink span{filter:blur(1px)}.sample-photo{border:7px solid white;box-shadow:0 1px 5px #0002}.sample-manuscript span{text-decoration:line-through}.preview-tools{flex-wrap:wrap}
+.start-heading p{max-width:650px}.carrier-intro{margin:0 0 18px;font-size:12px;color:#68717b}.template-card .card-copy{padding:18px}.template-card .card-copy strong{font-size:15px;margin-bottom:8px}.template-card .card-copy small{line-height:1.8}.template-card .thumb{height:112px}.appearance-bar{display:flex;align-items:center;gap:16px;flex-wrap:wrap;background:#fff;border:1px solid #e1e4e8;border-radius:8px;padding:14px 18px;margin-bottom:18px}.appearance-label{display:flex;align-items:center;gap:12px;font-size:12px;font-weight:600}.appearance-label select{min-width:190px;width:auto}.appearance-bar p{margin:0;flex:1;min-width:200px}.appearance-bar button{font-size:11px}.optional-module{margin:18px 0;border-top:1px solid #e1e4e8;padding-top:14px}.optional-module>.check{font-weight:600;margin-bottom:8px}.optional-module>div{padding:12px 0 0}.reading-options{margin:18px 0;border-top:1px solid #e1e4e8;padding-top:14px}.reading-options>summary{cursor:pointer;font-size:12px;font-weight:600;line-height:1.8;margin-bottom:14px}.reading-options .quiet{display:block;text-align:left}.reading-options .field{margin-bottom:12px}.mobile-surface-switch{display:none}.field input::placeholder,.field textarea::placeholder{color:#9299a0}.preview-tools{justify-content:flex-start}.preview-tools #preview-label{margin-right:auto}.legacy-notice{font-size:11px;color:#68717b;line-height:1.8}.optional-module .interaction-editor{margin:0}.template-grid{gap:18px}.start-foot{margin-top:24px}.start-heading h1{font-size:27px}.header-actions .quiet{max-width:200px;text-align:right}
+@media(max-width:899px){.editing .edit-panel{max-height:none;overflow:visible}.editing .preview-panel{position:static}.editing .edit-body{padding:18px}.mobile-surface-switch{display:flex;margin-bottom:14px;gap:8px}.mobile-surface-switch button{flex:1;font-size:12px}.mobile-surface-switch button[aria-pressed=true]{border-color:#9b2936;color:#9b2936;background:#fff8f8}.editing #editor-screen[data-surface=edit] .preview-panel{display:none}.editing #editor-screen[data-surface=preview] .edit-panel{display:none}.editing .preview-stage iframe{height:65vh;min-height:350px}.editing .preview-stage{min-height:350px}.editing .tabs{position:static}.appearance-bar{padding:14px;gap:10px}.appearance-label{width:100%;justify-content:space-between}.appearance-label select{max-width:65%;min-width:0;flex:1}.appearance-bar p{min-width:0;width:100%;flex:auto}.appearance-bar button{padding:6px 0}.main{padding:20px 15px}.copy-rail{height:auto;position:static}.header-actions .quiet{max-width:145px}.template-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:540px){.template-grid{grid-template-columns:1fr}.start-heading h1{font-size:24px}.template-card{display:grid;grid-template-columns:100px minmax(0,1fr);align-items:stretch}.template-card .thumb{height:auto;min-height:118px;padding:8px}.template-card .card-copy{padding:17px 14px}.template-card .thumb .sample-paper,.template-card .thumb .sample-player{width:100%;font-size:8px}.template-card .thumb .mini{font-size:8px;padding:4px}.editor-top{margin-bottom:14px}.mobile-surface-switch{position:sticky;top:58px;background:#f5f6f8;padding:6px 0;z-index:3}}
+
+
+/* Reader-facing usage guide; independent of exported work skins. */
+#usage-dialog{padding:0;max-width:760px}.usage-head{position:sticky;top:0;z-index:1;background:#fff;padding:17px 22px;border-bottom:1px solid #e1e4e8;margin:0}.usage-head form{margin:0}.usage-head button{font-size:12px;white-space:nowrap}.usage-body{padding:20px 22px;font-size:13px;line-height:1.85}.usage-intro{color:#59636c}.usage-body h3{font-size:15px;margin:20px 0 10px}.usage-steps{padding-left:24px;margin:0 0 20px}.usage-body li{margin:9px 0}.usage-body ul,.usage-body ol{padding-left:23px}.usage-body strong{color:#30363d}.usage-section{border-top:1px solid #e1e4e8;padding:14px 0}.usage-section>summary{cursor:pointer;font-weight:700;font-size:14px}.usage-section[open]>summary{margin-bottom:12px}.usage-section p{margin:10px 0}.usage-example{white-space:pre-wrap;word-wrap:break-word;background:#f5f6f8;border-radius:6px;padding:12px;font:12px/1.8 Consolas,monospace}.usage-body code{word-wrap:break-word}.guide-link{padding:6px 0;text-decoration:underline;text-align:left}.header-actions #usage-open{white-space:nowrap;color:#97303a}
+@media(max-width:540px){.header-actions{flex-wrap:wrap;justify-content:flex-end;gap:2px}.header-actions .file-status{flex-basis:100%;text-align:right;font-size:10px}.header-actions .quiet{padding:4px;font-size:11px;max-width:none}.usage-head{padding:14px}.usage-body{padding:14px}.usage-head h2{font-size:17px}}
 </style></head><body>
-<header class="header"><div class="brand"><span class="brand-mark">AO3</span>皮肤制作器</div><div class="header-actions"><span id="save-status" class="file-status">离线可用</span><button class="quiet" id="research-open" type="button">参考的github开源项目与说明</button></div></header>
+<header class="header"><div class="brand"><span class="brand-mark">AO3</span>皮肤制作器</div><div class="header-actions"><span id="save-status" class="file-status">离线可用</span><button class="quiet" id="usage-open" type="button" data-usage-open aria-haspopup="dialog" aria-controls="usage-dialog">使用说明</button><button class="quiet" id="research-open" type="button">说明与开源来源</button></div></header>
 <div class="layout"><main class="main">
 <section id="start-screen" aria-label="选择制作方式">
- <div class="start-heading"><div><h1>我们从哪里开始？</h1><p>选择一种模板，再粘贴文本内容、改样式。最后复制右侧的两段代码，按照提示操作即可。</p></div><button id="continue" class="continue" type="button" hidden>继续上次编辑 →</button></div>
- <div class="start-options simple-start"><button type="button" id="use-template" hidden>使用模板</button><span>选模板 → 写内容 → 调样式 → 复制到 AO3</span><button type="button" id="start-free" class="quiet">我会代码：自由编写</button></div>
- <div class="section-head"><h2 id="gallery-title">模板</h2></div>
- <div id="template-gallery" class="template-grid" aria-labelledby="gallery-title"></div><details class="more-templates"><summary>【更多模板】 · 章节、脚注、档案等 </summary><p class="muted">新增音乐播放器和消息弹窗：点击展开内容。部分高级模板的字段旁有格式说明。</p><div id="more-gallery" class="template-grid"></div></details><p class="start-foot">模板里的演示文字可以直接替换。</p>
+ <div class="start-heading"><div><h1>让work skin走进千家万户，同人女爱同人女来了</h1><p>workskin你的强来了。</p></div><button id="continue" class="continue" type="button" hidden>继续上次编辑 →</button></div>
+ <div class="start-options simple-start"><button type="button" id="use-template" hidden>使用模板</button><span>选内容类型 → 写正文 → 调样式 → 复制到 AO3</span><button type="button" id="start-free" class="quiet">我会代码：自由编写</button></div>
+ <div class="section-head"><h2 id="gallery-title">想呈现哪种内容？</h2></div>
+ <div id="template-gallery" class="template-grid" aria-labelledby="gallery-title"></div><p class="start-foot">每类里可以切换外观。正文会保留；需要时再添加补充内容和阅读效果。</p>
 </section>
 <section id="editor-screen" aria-label="编辑内容与样式" hidden>
- <div class="editor-top"><div class="editor-name"><button id="back" class="back" type="button">← 更换模板</button><h1 id="editor-title">聊天记录</h1></div><div class="toolbar"><details class="editor-more"><summary>草稿与更多</summary><div><button id="to-free" type="button">编辑 HTML / CSS</button><button id="export-draft" type="button">保存草稿文件</button><button id="import-draft" type="button">导入草稿</button></div></details></div></div>
- <div class="editor-grid"><section class="edit-panel" aria-label="编辑表单">
+ <div class="editor-top"><div class="editor-name"><button id="back" class="back" type="button">← 更换内容类型</button><h1 id="editor-title">聊天记录</h1></div><div class="toolbar"><details class="editor-more"><summary>草稿与更多</summary><div><button id="to-free" type="button">编辑 HTML / CSS</button><button id="export-draft" type="button">保存草稿文件</button><button id="import-draft" type="button">导入草稿</button></div></details></div></div>
+ <div class="appearance-bar" id="appearance-bar"></div><div class="mobile-surface-switch" id="mobile-view-toggle"><button type="button" data-mobile-surface="edit" aria-pressed="true">编辑内容</button><button type="button" data-mobile-surface="preview" aria-pressed="false">查看预览</button></div><div class="editor-grid"><section class="edit-panel" aria-label="编辑表单">
   <div id="form-tabs" class="tabs" role="tablist" aria-label="编辑步骤"><button id="content-tab" type="button" class="tab" role="tab" aria-selected="true" aria-controls="content-pane">1 写内容</button><button id="style-tab" type="button" class="tab" role="tab" aria-selected="false" aria-controls="style-pane">2 调样式</button></div>
   <div class="edit-body"><div id="content-pane" role="tabpanel" aria-labelledby="content-tab"><div id="content-fields"></div><button id="next-step" type="button" class="primary next">下一步：调样式 →</button></div><div id="style-pane" role="tabpanel" aria-labelledby="style-tab" hidden><div id="style-fields"></div><details class="advanced-options"><summary>更多设置（可不更改）</summary><label class="field"><span>样式名称前缀</span><div class="field-row"><input id="prefix" type="text" value="wsk-" maxlength="40" spellcheck="false"><button id="random" type="button">随机</button></div><small id="prefix-help">默认即可。更换前缀可以避免样式重名。</small></label></details><button id="reset-style" type="button" class="next">恢复默认样式</button><p class="muted" style="margin:12px 0 0">满意后，按右侧顺序复制到 AO3。</p></div>
   <div id="free-pane" hidden><p class="code-help">HTML 写内容，CSS 改样式。输入后自动预览，红框会提示 AO3 不接受的代码。</p><div class="field-code"><div class="editor-label"><label for="html-editor">正文 HTML</label><div class="small-actions"><button type="button" data-undo="html-editor">撤销</button><button type="button" data-redo="html-editor">重做</button></div></div><textarea id="html-editor" class="code-editor" spellcheck="false" wrap="off" aria-describedby="editor-help warnings"></textarea></div><div class="field-code"><div class="editor-label"><label for="css-editor">皮肤 CSS</label><div class="small-actions"><button type="button" data-undo="css-editor">撤销</button><button type="button" data-redo="css-editor">重做</button></div></div><textarea id="css-editor" class="code-editor" spellcheck="false" wrap="off" aria-describedby="editor-help warnings"></textarea></div><p class="code-help" id="editor-help">Enter 自动缩进；Ctrl+] 缩进、Ctrl+[ 取消缩进；Tab 可移到下一个控件。JS 无法用于 AO3，因此这里只编辑 HTML / CSS。</p></div>
   <div class="note" id="degradation"></div></div>
- </section><section class="preview-panel" aria-label="实时预览"><div class="preview-head"><strong>预览</strong><label class="check"><input type="checkbox" id="hide-skin">不看皮肤，只看文字</label></div><div class="preview-tools"><span id="preview-label">正在显示皮肤</span><button id="viewport" type="button" aria-pressed="false">切换窄屏</button></div><div class="preview-stage"><div class="preview-paper" id="paper"><iframe id="preview" title="AO3 正文效果预览" sandbox="allow-same-origin" referrerpolicy="no-referrer"></iframe></div></div><div class="preview-caption" id="preview-note">修改左侧内容，这里会自动更新。</div></section></div>
+ </section><section class="preview-panel" aria-label="实时预览"><div class="preview-head"><strong>预览</strong><label class="check"><input type="checkbox" id="hide-skin">不看皮肤，只看文字</label></div><div class="preview-tools"><span id="preview-label">正在显示皮肤</span><button id="replay-reading" type="button" hidden>重新试读</button><button id="viewport" type="button" aria-pressed="false">切换窄屏</button></div><div class="preview-stage"><div class="preview-paper" id="paper"><iframe id="preview" title="AO3 正文效果预览" sandbox="allow-same-origin" referrerpolicy="no-referrer"></iframe></div></div><div class="preview-caption" id="preview-note">修改左侧内容，这里会自动更新。</div></section></div>
 </section>
 </main>
 <aside class="copy-rail" aria-label="复制到 AO3"><div class="rail-title"><h2>复制到 AO3</h2><span class="status idle" id="status" role="status">尚未开始</span></div><p class="muted" id="copy-intro" style="margin:0">先在左侧选择模板或自由编写。</p>
- <section class="export-card"><h3>① 皮肤样式</h3><p>创建或修改样式后粘贴；只改正文时可跳过。</p><button class="primary" type="button" data-copy="css-output" disabled>复制皮肤样式</button><details class="source-toggle"><summary>查看代码</summary><textarea id="css-output" class="output-code" readonly spellcheck="false" wrap="off" aria-label="导出的 CSS"></textarea></details><button type="button" class="download-link" data-download="css-output" disabled>下载 CSS 文件</button></section>
+ <p id="export-context" class="muted" role="status"></p><section class="export-card"><h3>① 皮肤样式</h3><p>创建或修改样式后粘贴；只改正文时可跳过。</p><button class="primary" type="button" data-copy="css-output" disabled>复制皮肤样式</button><details class="source-toggle"><summary>查看代码</summary><textarea id="css-output" class="output-code" readonly spellcheck="false" wrap="off" aria-label="导出的 CSS"></textarea></details><button type="button" class="download-link" data-download="css-output" disabled>下载 CSS 文件</button></section>
  <section class="export-card"><h3>② 作品正文</h3><p>粘贴到作品的 HTML 编辑器。</p><button class="primary" type="button" data-copy="html-output" disabled>复制作品正文</button><details class="source-toggle"><summary>查看代码</summary><textarea id="html-output" class="output-code" readonly spellcheck="false" wrap="off" aria-label="导出的 HTML"></textarea></details><button type="button" class="download-link" data-download="html-output" disabled>下载 HTML 文本</button></section>
  <p id="copy-progress" class="muted" role="status"></p><div id="warnings" class="warnings" role="alert" hidden></div>
- <div id="advice" class="advice" hidden></div>
- <div class="rail-help"><strong>在哪里粘贴？</strong><p>① AO3 → Skins → My Work Skins → Create Work Skin。粘贴 CSS，点 Submit。</p><p>② 发帖时选择刚创建的 Work Skin，正文切到 HTML 编辑器，再粘贴 HTML。</p><p>最后点 AO3 的 Preview 检查。</p></div><div class="footer-help">关闭皮肤后，正文仍应可读。<br>检查结果是静态提示，AO3 保存结果为准。<br><button class="quiet" type="button" id="clear-storage" style="padding:8px 0 0;text-decoration:underline">清除本地记忆</button></div>
+ <p class="compatibility-note">AO3 尚待实测 · 复制后请在 AO3 Preview 检查。</p><div id="advice" class="advice" hidden></div>
+ <div class="rail-help"><strong>在哪里粘贴？</strong><br><button class="quiet guide-link" type="button" data-usage-open aria-haspopup="dialog" aria-controls="usage-dialog">查看完整使用说明</button><p>① AO3 → Skins → My Work Skins → Create Work Skin。粘贴 CSS，点 Submit。</p><p>② 发帖时选择刚创建的 Work Skin，正文切到 HTML 编辑器，再粘贴 HTML。</p><p>最后点 AO3 的 Preview 检查。</p></div><div class="footer-help">关闭皮肤后，正文仍应可读。<br><button class="quiet" type="button" id="clear-storage" style="padding:8px 0 0;text-decoration:underline">清除本地记忆</button></div>
 </aside></div>
 <dialog id="bulk-dialog" aria-labelledby="bulk-title"><div class="dialog-head"><h2 id="bulk-title">粘贴对话，拆成消息</h2><button id="bulk-close" type="button">返回编辑</button></div>
 <p class="muted">适用于聊天记录与角色台词。按“角色名：内容”逐行识别，中英文冒号都可以。全程离线，原文不会上传。最多 10 万字符、1000 条消息、100 个角色。</p>
@@ -46,7 +58,49 @@
 <h3>3 只检查需要确认的段落</h3><div class="bulk-summary-bar"><strong id="bulk-summary" role="status"></strong><button id="bulk-next-pending" type="button">定位待确认</button></div><label class="review-filter">显示<select id="bulk-filter"><option value="issues">待确认与疑似误识别</option><option value="all">全部消息</option></select></label><div id="bulk-items"></div><details class="bulk-reading" open><summary>完整文字顺序预览</summary><div id="bulk-text-preview"></div></details>
 <div class="bulk-apply-bar"><label for="bulk-mode">导入方式</label><select id="bulk-mode"><option value="replace">替换现有消息</option><option value="append">追加到现有消息之后</option></select><button id="bulk-apply" class="primary" type="button">确认并应用</button><p id="bulk-issue" class="inline-error" role="status"></p></div></section></dialog>
 <input id="draft-file" type="file" accept="application/json,.json" hidden>
-<dialog id="research-dialog" aria-labelledby="research-title"><div class="dialog-head"><h2 id="research-title">开源项目与使用说明</h2><button id="research-close" type="button">关闭</button></div><p class="muted">核查日期：2026-10-22。以下状态根据 GitHub 仓库、最近提交、README 和许可证判断；未归档不代表仍在持续维护，部署难度为代码结构判断，没有实际部署这些第三方项目。</p>
+<dialog id="usage-dialog" aria-labelledby="usage-title"><div class="dialog-head usage-head"><h2 id="usage-title">使用说明</h2><form method="dialog"><button type="submit" aria-label="关闭使用说明">返回制作</button></form></div><div class="usage-body"><ol class="usage-steps">
+<li><strong>选内容。</strong>在首页选择内容类型，进入后用“外观 / 内容结构”选择具体模板。</li>
+<li><strong>更换正文内容。</strong>在“1 写内容”里，把“演示文字”替换成正文；不需要的称呼、署名等可以留空。聊天可以粘贴整段对话再拆解。</li>
+<li><strong>调样式，选择动效。</strong>在“2 调样式”里选配色，需要时再微调字体与布局。“阅读方式”即是动效，注意，部分动效没有在红白里试验过，可能无法成功。（ps：样式可以更换配色，也可以使用网站自带的配色）</li>
+<li><strong>试读。</strong>修改后预览会自动更新。</li>
+<li><strong>复制两份代码。</strong>按输出区的①②顺序粘贴到 AO3，最后用 AO3 的 Preview 检查。</li>
+</ol>
+<details class="usage-section"><summary>动效都有什么？</summary>
+<ul>
+<li><strong>阅后即焚</strong></li>
+<li><strong>翻到下一页</strong></li>
+<li><strong>擦除已读文字</strong></li>
+<li><strong>故障错位后消失</strong></li>
+</ul>
+<p>用于短文本，共最多 300 字，称呼、标题与署名也计入/</p>
+<p>这四项都是<strong>单次点击近似</strong>，刷新后可以重读。</p>
+<p>其他动效还包括展开、逐行或逐字显现、辨认模糊字迹等适配方式。</p>
+</details>
+<details class="usage-section"><summary>六类内容怎么选？</summary>
+<ul>
+<li><strong>捡手机体：分为</strong>聊天气泡、角色台词</li>
+<li><strong>信件、手稿：</strong>普通信纸 / 日记、拆信与折信（有简单的信纸滑动的动效）、备忘录、手稿与旁批。</li>
+<li><strong>仿社交媒体：</strong>推特体、朋友圈、消息与通知。</li>
+<li><strong>档案与记录：</strong>档案卡、档案夹页、逐层线索、路线札记、报纸剪报。</li>
+<li><strong>正文排版：</strong>正文段落、整篇配色、正文与脚注、章节分组。</li>
+<li><strong>照片与音乐：</strong>照片背面、音乐播放器。播放器用于模拟阅读场景，不播放真实音频。</li>
+</ul>
+<p>切换外观后先检查预览。同类可兼容的正文会带入，专用字段各自保存；需要时使用“撤销外观切换”。歌单、乐评、回复、旁批等补充内容，勾选“添加…”后才会导出；取消勾选会保留输入。</p>
+</details>
+<details class="usage-section"><summary>预览空白、效果不动或无法复制怎么办？</summary>
+<ul>
+<li><strong>出现红色提示：</strong>先修正提示中的内容、格式或长度。此时预览可能保留上一次有效结果，复制会暂停。</li>
+<li><strong>效果没有动：</strong>先取消“不看皮肤，只看文字”，确认变化节奏不是“直接呈现”，再点击预览中的阅读提示语。已经触发的单次效果，可用“重新试读”重置预览。</li>
+<li><strong>预览始终空白：</strong>先保存草稿，再刷新或用新版 Chrome / Edge 重新打开；选择一个内容类型，并确认已填写正文。若提示“预览未加载”，按页面提示重新打开文件。</li>
+<li><strong>手机看不到预览：</strong>点击“查看预览”；“切换窄屏”仅用于模拟正文宽度。</li>
+<li><strong>AO3 显示不同：</strong>检查是否选中了对应的 Work Skin、是否更新了两份代码、是否关闭了作者样式。悬停效果在触屏上不可靠，重要内容应保留可直接阅读的版本。</li>
+</ul>
+</details>
+<details class="usage-section"><summary>已经会 HTML / CSS，怎样自由编写？</summary>
+<p>首页点击“我会代码：自由编写”，或在编辑器的“草稿与更多”中选择“编辑 HTML / CSS”，将当前模板结果转入代码编辑。这里只编辑用于 AO3 的 HTML 与 CSS，不支持读者端 JavaScript。</p>
+<p>正文通过 class 连接样式；不要使用 id、style 属性、脚本、事件、input 或嵌入的 style / iframe。CSS 建议使用以点开头的类选择器，例如 <code>.wsk-text</code>，预览会模拟 AO3 添加作用范围。出现红色警告时按提示修正，再复制输出。预览不加载远程图片等外部资源。</p>
+</details></div></dialog>
+<dialog id="research-dialog" aria-labelledby="research-title"><div class="dialog-head"><h2 id="research-title">公告</h2><button id="research-close" type="button">关闭</button></div><p class="muted">日期：2026-10-24。新增阅读效果参考了 AO3 专用工具包；已完成本地浏览器检查。</p><p class="muted">早期项目核查日期：2026-10-22。以下状态根据 GitHub 仓库、最近提交、README 和许可证判断；未归档不代表仍在持续维护，部署难度为代码结构判断，没有实际部署这些第三方项目。</p>
 <div class="research-table-wrap"><table class="research-table"><thead><tr><th>项目</th><th>维护迹象</th><th>部署与可用功能</th><th>本工具的处理</th></tr></thead><tbody>
 <tr><td><a href="https://github.com/Anlanther/ao3-twitter-generator" target="_blank" rel="noopener noreferrer">ao3-twitter-generator</a><br>MIT</td><td>未归档；最近提交 2026-05-14。近期维护频率有限。</td><td>Angular 项目，需 Node/npm 构建；有 GitHub Pages 工作流，难度中等。支持动态、引用、回复、图片、计数和下载 HTML。</td><td>改编其文本下载逻辑；新增独立编写的社交动态模板（引用、回复、计数），保留离线纯文字预览。</td></tr>
 <tr><td><a href="https://github.com/antonmedv/codejar" target="_blank" rel="noopener noreferrer">CodeJar</a><br>MIT</td><td>未归档；最近提交 2025-10-14，已有一年未提交。</td><td>轻量编辑器，无运行时依赖。集成容易；支持缩进、括号补全、撤销重做，不是完整网站。</td><td>复用缩进扫描函数并适配原生 textarea；并改编其历史记录与光标恢复逻辑。未引入整套编辑器。</td></tr>
@@ -101,7 +155,29 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-</pre></details></dialog>
+</pre></details><h3>叙事阅读效果参考</h3><p class="muted"><a href="https://github.com/XinqiBao/ao3-effects-toolkit/tree/7f46b99422f8432c77bc758db21bdd8bc04bea41" target="_blank" rel="noopener noreferrer">XinqiBao / ao3-effects-toolkit</a>：适配 details 状态、照片正反面透明度和逐项延迟的实现方式。本站不使用远程脚本；旁批与夹页改为正常文档流，方便窄屏阅读。参考版本固定在上述提交。</p><details class="license-details"><summary>查看 MIT 许可证及署名</summary><pre class="license">MIT License
+
+Copyright (c) 2026 Xinqi Bao
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+</pre></details>
+</dialog>
 <div class="toast" id="toast" role="status" hidden></div>
 <script>'use strict';
 (() => {
@@ -113,7 +189,7 @@ const fonts={"serif":"Georgia, \"Songti SC\", SimSun, serif","sans":"Arial, \"Mi
 const templates={"chat":{"degradation":"每条消息保留角色名和可选时间戳；左右气泡与头像仅作装饰。","fields":[{"key":"left","label":"左侧气泡","type":"color","value":"#f0e7df"},{"key":"right","label":"右侧气泡","type":"color","value":"#8f3540"},{"key":"text","label":"左侧文字","type":"color","value":"#403631"},{"key":"rightText","label":"右侧文字","type":"color","value":"#ffffff"},{"key":"align","label":"消息对齐","type":"select","value":"alternating","options":[["alternating","左右交替"],["left","全部靠左"],["right","全部靠右"]]},{"key":"time","label":"显示时间戳","type":"checkbox","value":true},{"key":"avatar","label":"显示头像占位","type":"checkbox","value":false},{"key":"names","label":"角色名列表","type":"textarea","value":"演示文字\n演示文字","help":"每行一个名字，最多 12 个；消息按角色顺序循环。"},{"key":"messages","label":"消息内容","type":"textarea","value":"演示文字\n演示文字","help":"每行一条消息，最多 30 条；时间为示例时间。"}],"css":".{{p}}chat { font-family: Arial, \"Microsoft YaHei\", sans-serif; color: {{text}}; }\n.{{p}}message { display: flex; margin: 0 0 18px; align-items: flex-start; }\n.{{p}}bubble { background: {{left}}; color: {{text}}; padding: 12px 16px; border-radius: 2px 16px 16px; max-width: 80%; }\n.{{p}}bubble p { margin: 6px 0 0; line-height: 1.7; }\n.{{p}}right { justify-content: flex-end; }\n.{{p}}right .{{p}}bubble { background: {{right}}; color: {{rightText}}; border-radius: 16px 2px 16px 16px; }\n.{{p}}speaker { font-size: 12px; }\n.{{p}}time { font-size: 10px; margin-left: 8px; }\n.{{p}}avatar { margin: 4px 8px; padding: 5px; border: 1px solid #cdbdb0; border-radius: 50%; font-size: 12px; }","html":"<div class=\"{{p}}chat\">\n{{messagesHTML}}\n</div>",derive(v,p){const names=lines(v.names,12);return{messagesHTML:lines(v.messages,30).map((msg,i)=>{const name=names[i%names.length];const right=v.align==='right'||(v.align==='alternating'&&i%2===1);return `<div class="${p}message${right?' '+p+'right':''}">\n${v.avatar?`  <span class="${p}avatar">${esc(Array.from(name)[0])}</span>\n`:''}  <div class="${p}bubble"><strong class="${p}speaker">${esc(name)}:</strong>${v.time?` <small class="${p}time">演示文字</small>`:''}<p>${esc(msg)}</p></div>\n</div>`;}).join('\n')};}},
 "letter":{"degradation":"信头、正文与署名按自然顺序排列；移除纸张样式后仍是一封完整的信。","fields":[{"key":"ink","label":"信件文字颜色","type":"color","value":"#403631"},{"key":"background","label":"纸张底色","type":"color","value":"#faf3e6"},{"key":"border","label":"边框颜色","type":"color","value":"#d8c7ae"},{"key":"width","label":"页宽（像素）","type":"number","value":600,"min":240,"max":1000},{"key":"padding","label":"内边距（像素）","type":"number","value":28,"min":0,"max":80},{"key":"font","label":"字体","type":"select","value":"serif","options":[["serif","宋体 / 衬线"],["sans","黑体 / 无衬线"],["mono","等宽字体"]]},{"key":"greeting","label":"称呼","type":"text","value":"演示文字"},{"key":"body","label":"正文","type":"textarea","value":"演示文字\n演示文字"},{"key":"signature","label":"署名","type":"text","value":"演示文字"}],"css":".{{p}}letter { background: {{background}}; color: {{ink}}; border: 1px solid {{border}}; padding: {{padding}}px; max-width: {{width}}px; margin: 0 auto; font-family: {{fontCSS}}; line-height: 2; }\n.{{p}}letter p { margin: 0 0 1.2em; }\n.{{p}}letter .{{p}}signature { text-align: right; margin-bottom: 0; }","html":"<div class=\"{{p}}letter\">\n<p><strong>{{greeting}}</strong></p>\n{{bodyHTML}}\n<p class=\"{{p}}signature\">{{signature}}</p>\n</div>","derive":v=>({fontCSS:fonts[v.font],bodyHTML:paragraphs(v.body)})},
 "dialogue":{"degradation":"每段台词都有加粗角色名；即使没有颜色，读者也能分辨说话人。","fields":[{"key":"characters","label":"角色与颜色","type":"textarea","value":"演示文字 | #922c35\n演示文字 | #3f6c72","help":"每行：角色名 | #六位十六进制颜色，最多 12 个。"},{"key":"lines","label":"台词","type":"textarea","value":"演示文字 | 演示文字\n演示文字 | 演示文字","help":"每行：角色名 | 台词。未列出的角色使用默认文字色。"}],"css":".{{p}}dialogue p { line-height: 1.9; margin: 0 0 1.2em; }\n{{roleCSS}}","html":"<div class=\"{{p}}dialogue\">\n{{linesHTML}}\n</div>",derive(v,p){const roles=lines(v.characters,12).map(line=>{const [name,...rest]=line.split('|');return{name:name.trim(),color:rest.join('|').trim()};});return{roleCSS:roles.map((r,i)=>`.${p}role-${i+1} { color: ${/^#[0-9a-f]{6}$/i.test(r.color)?r.color:'#716359'}; }`).join('\n'),linesHTML:lines(v.lines,40).map(line=>{const [name,...rest]=line.split('|');const i=roles.findIndex(r=>r.name===name.trim());return `<p${i>=0?` class="${p}role-${i+1}"`:''}><strong>${esc(name.trim())}:</strong> ${esc(rest.join('|').trim()||'演示文字')}</p>`;}).join('\n')};}},
-"typography":{"degradation":"首字仍是正文的一部分，分栏按 DOM 顺序阅读；关闭皮肤后恢复连续段落。","fields":[{"key":"size","label":"首字大小（像素）","type":"number","value":44,"min":20,"max":96},{"key":"color","label":"首字颜色","type":"color","value":"#922c35"},{"key":"spacing","label":"段落间距（像素）","type":"number","value":20,"min":0,"max":64},{"key":"columns","label":"栏数","type":"select","value":"2","options":[["1","一栏"],["2","两栏"],["3","三栏"]]},{"key":"body","label":"正文","type":"textarea","value":"演示文字\n演示文字"}],"css":".{{p}}columns { display: flex; flex-wrap: wrap; }\n.{{p}}column { flex: 1 1 {{basis}}; min-width: 0; padding-right: 16px; }\n.{{p}}column p { line-height: 1.9; margin: 0 0 {{spacing}}px; }\n.{{p}}drop { float: left; font-size: {{size}}px; line-height: 1; color: {{color}}; margin: 6px 8px 0 0; }","html":"<div class=\"{{p}}columns\">\n{{columnsHTML}}\n</div>",derive(v,p){const ps=lines(v.body,60),n=Number(v.columns),chunk=Math.ceil(ps.length/n);return{basis:n===1?'100%':n===2?'44%':'28%',columnsHTML:Array.from({length:n},(_,i)=>{const group=ps.slice(i*chunk,(i+1)*chunk);return `<div class="${p}column">${group.map((s,j)=>{const chars=Array.from(s);return `<p>${i===0&&j===0?`<span class="${p}drop">${esc(chars.shift())}</span>`:''}${esc(i===0&&j===0?chars.join(''):s)}</p>`;}).join('\n')}</div>`;}).join('\n')};}},
+"typography":{"degradation":"首字仍是正文的一部分，分栏按 DOM 顺序阅读；关闭皮肤后恢复连续段落。","fields":[{"key":"size","label":"首字大小（像素）","type":"number","value":44,"min":20,"max":96},{"key":"color","label":"首字颜色","type":"color","value":"#922c35"},{"key":"spacing","label":"段落间距（像素）","type":"number","value":20,"min":0,"max":64},{"key":"columns","label":"栏数","type":"select","value":"2","options":[["1","一栏"],["2","两栏"],["3","三栏"]]},{"key":"body","label":"正文","type":"textarea","value":"演示文字\n演示文字"}],"css":".{{p}}columns { display: flex; flex-wrap: wrap; }\n.{{p}}column { flex: 1 1 {{basis}}; min-width: 0; padding-right: 16px; }\n.{{p}}column p { line-height: 1.9; margin: 0 0 {{spacing}}px; }\n.{{p}}drop { float: left; font-size: {{size}}px; line-height: 1; color: {{color}}; margin: 6px 8px 0 0; }","html":"<div class=\"{{p}}columns\">\n{{columnsHTML}}\n</div>",derive(v,p){const ps=lines(v.body,60),n=Number(v.columns),chunk=Math.ceil(ps.length/n);return{basis:n===1?'100%':n===2?'44%':'28%',columnsHTML:Array.from({length:n},(_,i)=>{const group=ps.slice(i*chunk,(i+1)*chunk);return `<div class="${p}column">${group.map((s,j)=>{const chars=graphemes(s);return `<p>${i===0&&j===0?`<span class="${p}drop">${esc(chars.shift())}</span>`:''}${esc(i===0&&j===0?chars.join(''):s)}</p>`;}).join('\n')}</div>`;}).join('\n')};}},
 "theme":{"degradation":"主题用 .userstuff 覆盖 AO3 正文，无需给正文逐个加 class；关闭皮肤后恢复普通段落和链接。","fields":[{"key":"font","label":"正文字体","type":"select","value":"serif","options":[["serif","宋体 / 衬线"],["sans","黑体 / 无衬线"],["mono","等宽字体"]]},{"key":"background","label":"背景色","type":"color","value":"#faf6ee"},{"key":"text","label":"文字色","type":"color","value":"#4b4138"},{"key":"link","label":"链接色","type":"color","value":"#922c35"},{"key":"body","label":"示例正文","type":"textarea","value":"演示文字\n演示文字"}],"css":".userstuff { background: {{background}}; color: {{text}}; font-family: {{fontCSS}}; padding: 24px; line-height: 1.9; }\n.userstuff p { margin: 0 0 1.2em; }\n.userstuff a { color: {{link}}; text-decoration: underline; }","html":"{{bodyHTML}}\n<p><a href=\"https://archiveofourown.org/\">演示文字</a></p>","derive":v=>({fontCSS:fonts[v.font],bodyHTML:paragraphs(v.body)})},
 "details":{"degradation":"使用原生 details / summary；关闭 CSS 后仍可展开。下载器若不支持 details，显示方式由阅读器决定。","fields":[{"key":"title","label":"标题文字","type":"text","value":"演示文字"},{"key":"open","label":"默认展开","type":"checkbox","value":false},{"key":"body","label":"展开内容","type":"textarea","value":"演示文字\n演示文字"}],"css":".{{p}}details { border: 1px solid #ddcec2; border-radius: 8px; padding: 16px 20px; background: #faf6f0; line-height: 1.9; }\n.{{p}}details summary { cursor: pointer; color: #922c35; font-weight: bold; }\n.{{p}}details p { margin: 14px 0 0; }","html":"<details class=\"{{p}}details\"{{openAttr}}>\n<summary>{{title}}</summary>\n{{bodyHTML}}\n</details>","derive":v=>({openAttr:v.open?' open':'',bodyHTML:paragraphs(v.body)})},
 "hover":{"degradation":"隐藏内容保留在 HTML 中。关闭皮肤后触发文字和补充文字都会直接显示；触屏读者可关闭皮肤阅读。","fields":[{"key":"trigger","label":"触发文字","type":"text","value":"演示文字"},{"key":"secret","label":"隐藏文字","type":"textarea","value":"演示文字"}],"css":".{{p}}reveal { border-bottom: 1px dotted #aa8a7d; line-height: 1.9; }\n.{{p}}secret { display: none; color: #922c35; }\n.{{p}}reveal:hover .{{p}}secret { display: inline; }","html":"<p class=\"{{p}}reveal\">{{trigger}} <span class=\"{{p}}secret\">（{{secret}}）</span></p>"},
@@ -130,7 +206,7 @@ const allowedTags=new Set('a abbr acronym address b bdo big blockquote br captio
 const globalAttrs=new Set('align dir lang title class'.split(' '));
 const tagAttrs={a:['href','name'],img:['src','alt','width','height','align','border'],details:['open'],ol:['start','type'],ul:['type'],table:['border','summary','width'],td:['abbr','axis','colspan','height','rowspan','width'],th:['abbr','axis','colspan','height','rowspan','width','scope'],blockquote:['cite'],q:['cite'],hr:['align','width'],col:['span','width'],colgroup:['span','width']};
 function validate(css,html){const cssErrors=[],htmlErrors=[];let prefixed='';
- try{const clean=stripComments(css);if(/var\s*\(/i.test(clean))cssErrors.push('CSS 不允许 var()。');if(/--/.test(clean))cssErrors.push('CSS 不允许 -- 自定义变量。');if(/position\s*:\s*fixed\b/i.test(clean))cssErrors.push('CSS 不允许 position: fixed。');if(/@font-face/i.test(clean))cssErrors.push('CSS 不允许 @font-face。');if(/<\s*\/\s*style/i.test(clean))cssErrors.push('CSS 不能包含关闭 style 的 HTML 标记。');if(/\\/.test(clean.replace(/"(?:\\.|[^"\\])*"|'(?:\\.|[^'\\])*'/g,'')))cssErrors.push('CSS 选择器和属性不接受转义写法，请使用直写名称。');prefixed=prefixCSS(css);
+ try{const clean=stripComments(css);if(/var\s*\(/i.test(clean))cssErrors.push('本工具的保守输出模式暂不支持 var()；这不是 AO3 全部能力的说明。');if(/--/.test(clean))cssErrors.push('本工具的保守输出模式暂不支持 CSS 自定义变量。');if(/position\s*:\s*fixed\b/i.test(clean))cssErrors.push('CSS 不允许 position: fixed。');if(/@font-face/i.test(clean))cssErrors.push('CSS 不允许 @font-face。');if(/<\s*\/\s*style/i.test(clean))cssErrors.push('CSS 不能包含关闭 style 的 HTML 标记。');if(/\\/.test(clean.replace(/"(?:\\.|[^"\\])*"|'(?:\\.|[^'\\])*'/g,'')))cssErrors.push('CSS 选择器和属性不接受转义写法，请使用直写名称。');prefixed=prefixCSS(css);
   // CSSOM 检查规则与声明，避免浏览器静默丢弃拼写错误。
   if(typeof CSSStyleSheet!=='undefined' && typeof CSSStyleSheet.prototype.replaceSync==='function'){const sheet=new CSSStyleSheet();sheet.replaceSync(prefixed);if(prefixed.trim()&&!sheet.cssRules.length)cssErrors.push('CSS 没有可解析的规则。');for(const rule of sheet.cssRules){if(rule.style&&rule.style.length===0)cssErrors.push('CSS 规则没有有效声明：'+rule.selectorText);}}
  }catch(e){cssErrors.push(e.message);}
@@ -521,7 +597,7 @@ function renderPopupForm(){
  rows.forEach((row,i)=>{
   const box=document.createElement('div');box.className='message-row';const heading=document.createElement('div');heading.className='message-top';heading.textContent='第 '+(i+1)+' 条消息';
   heading.append(button('删除',()=>{rows.splice(i,1);saveRows();renderFields();}));box.append(heading);
-  for(const [key,label,type] of [['sender','发送者','text'],['title','标题','text'],['time','时间','text'],['summary','摘要（始终显示）','text'],['body','详情（点击后显示）','textarea']])box.append(interactionField('消息 '+(i+1)+' · '+label,row[key],x=>{row[key]=x;saveRows();},type));
+  for(const [key,label,type] of [['sender','发送者','text'],['title','标题','text'],['time','时间','text'],['summary','摘要（始终显示）','text'],['body',v.noticeMode==='static'?'详情（直接显示）':'详情（点击后显示）','textarea']])box.append(interactionField('消息 '+(i+1)+' · '+label,row[key],x=>{row[key]=x;saveRows();},type));
   const unread=document.createElement('label');unread.className='field';const text=document.createElement('span');text.textContent='未读提示';const select=document.createElement('select');select.setAttribute('aria-label','消息 '+(i+1)+' · 未读提示');
   for(const [value,label] of [['','不显示'],['•','小红点'],['count','未读条数']]){const opt=document.createElement('option');opt.value=value;opt.textContent=label;select.append(opt);}
   select.value=row.unread==='•'?'•':Number(row.unread)>0?'count':'';
@@ -540,7 +616,7 @@ function interactionRawEditor(key){
 function renderInteractionFields(){
  if(!['player','popup'].includes(state.template))return;
  const area=$('content-fields'),intro=document.createElement('p');intro.className='interaction-help';
- intro.textContent=state.template==='player'?'正文里的模拟播放器：点歌名或 ▶ 展开内容；不播放音频。进度百分比由你填写。':'消息会在正文中点击展开，不会覆盖屏幕。系统对话框的按钮为模拟外观，点击所在标题区域也会展开 / 收起。';area.prepend(intro);
+ intro.textContent=state.template==='player'?'模拟播放器：点歌名或 ▶ 展开歌词，不播放音频。需要歌单、乐评或留言时再添加。':'通知显示在正文中，不会覆盖屏幕。可以选择点击标题展开或直接显示；对话框按钮仅作外观装饰。';area.prepend(intro);
  if(state.template==='player'){renderPlaylistForm();interactionRawEditor('playlist');}
  else{const appearance=$('param-style')?.closest('label');if(appearance)intro.after(appearance);renderPopupForm();interactionRawEditor('items');}
 }
@@ -663,6 +739,7 @@ function contrastPairs(){
  else if(k==='theme'){add('文字 / 背景',v.text,v.background,h=>setValue('text',h));add('链接 / 背景',v.link,v.background,h=>setValue('link',h));}
  else if(k==='typography'){add('首字 / 默认白底',v.color,W,h=>setValue('color',h));}
  else if(k==='dialogue'){(conversation('dialogue')?.roles||[]).forEach((r,i)=>add('角色 '+(i+1)+' / 默认白底',r.color,W,h=>{r.color=h;renderFields();refresh();}));}
+ else if(['sealed','memo','clues',...NARRATIVE_KEYS].includes(k)){add('正文 / 底色',v.text,v.background,h=>setValue('text',h));add('强调色 / 底色',v.accent,v.background,h=>setValue('accent',h));}
  else if(k==='chapters'||k==='cards'){add('正文 / 底色',v.text,v.background,h=>setValue('text',h));if(k==='chapters')add('标题 / 章节底色',v.accent,v.background,h=>setValue('accent',h));}
  else if(k==='player'){add('文字 / 播放器底色',v.text,v.background,h=>setValue('text',h));add('强调色 / 播放器底色',v.accent,v.background,h=>setValue('accent',h));}
  else if(k==='popup'){add('文字 / 弹窗底色',v.text,v.background,h=>setValue('text',h));}
@@ -691,6 +768,7 @@ const palettes=[
 ];
 function paletteMap(k,p){
  const on=c=>ratio('#ffffff',c)>=ratio('#1a1a1a',c)?'#ffffff':'#1a1a1a';
+ if(['sealed','memo','clues',...NARRATIVE_KEYS].includes(k))return{background:p.bg,text:p.ink,accent:p.accent};
  if(k==='chat')return{left:p.soft,right:p.accent,text:p.ink,rightText:on(p.accent)};
  if(k==='player'||k==='popup')return{background:p.bg,text:p.ink,accent:p.accent};
  if(k==='social')return{background:p.bg,color:p.ink,accent:p.accent};
@@ -714,21 +792,471 @@ function renderPalettes(){
  $('style-fields').prepend(wrap);
 }
 
+// Template data and form helpers. Exported work content remains script-free.
+const TEMPLATE_GROUPS=[
+ ['聊天与社交',['chat','dialogue','social','moments','popup']],
+ ['信件与道具',['letter','sealed','memo','cards','news','system']],
+ ['正文与排版',['typography','theme','footnote','decoration']],
+ ['互动与揭晓',['player','details','chapters','clues','hover','effects']]
+];
+const MOTION_KEYS=['player','popup','cards','chapters','details','sealed','memo','clues'];
+const CAPABILITIES={player:'点击展开 · 播放器外观',popup:'点击展开 · 通知外观',cards:'点击解除遮盖',chapters:'点击展开',details:'点击展开',sealed:'点击拆信',memo:'点击展开补充',clues:'逐层点击展开',hover:'鼠标悬停 · 触屏无效',effects:'鼠标悬停 · 触屏无效',footnote:'悬停注释 · 文末可读',decoration:'装饰外观',system:'静态面板外观'};
+metadata.effects=['悬停变形','鼠标移过时改变缩放、角度或清晰度','interactive'];
+function readChapterRecords(raw){
+ const groups=String(raw).replace(/\r\n?/g,'\n').split(/^[ \t]*---[ \t]*$/m).filter(x=>x.trim());
+ if(groups.length>20)throw Error('最多 20 个章节或线索，原文已保留。');
+ return groups.map((group,i)=>{const rows=group.replace(/^\n+|\n+$/g,'').split('\n');if(rows.length>200)throw Error('第 '+(i+1)+' 项超过 200 行，原文已保留。');return{title:decodeMessageBody(rows.shift().trim()),body:decodeMessageBody(rows.join('\n'))};});
+}
+function writeChapterRecords(rows){return rows.map(r=>(encodeMessageBody(String(r.title).replace(/\r?\n/g,' '))||' ')+'\n'+encodeMessageBody(r.body)).join('\n---\n');}
+function recordParts(line){
+ const parts=[''];for(let i=0;i<line.length;i++){const ch=line[i];if(ch==='\\'&&i+1<line.length){const next=line[i+1];if(['\\','|','*','＊','n'].includes(next)){parts[parts.length-1]+=next==='n'?'\n':next;i++;}else parts[parts.length-1]+=ch;}else if(ch==='|')parts.push('');else parts[parts.length-1]+=ch;}return parts.map(x=>x.trim());
+}
+function recordText(text){return String(text).replace(/\\/g,'\\\\').replace(/\|/g,'\\|').replace(/\r\n?/g,'\n').replace(/\n/g,'\\n').replace(/[*＊]/g,'\\$&');}
+function readCardRecords(raw){
+ const groups=String(raw).replace(/\r\n?/g,'\n').split(/^[ \t]*---[ \t]*$/m).filter(x=>x.trim());if(groups.length>20)throw Error('档案超过 20 张，原文已保留。');
+ return groups.map((group,i)=>{const rows=group.split('\n').map(x=>x.trim()).filter(Boolean),head=recordParts(rows.shift()||'');if(head.length>3)throw Error('第 '+(i+1)+' 张档案标题字段过多，请使用表单或转义竖线。');if(rows.length>30)throw Error('每张档案最多 30 个字段，原文已保留。');
+  return{id:head[0]||'',title:head[1]||'',stamp:head[2]||'',rows:rows.map(line=>{const end=line.match(/(\\*)[*＊]$/),hidden=!!end&&end[1].length%2===0;const parts=recordParts(hidden?line.slice(0,-1).trimEnd():line);return{label:parts[0]||'',text:parts.slice(1).join(' | '),hidden};})};});
+}
+function writeCardRecords(cards){return cards.map(c=>[c.id,c.title,c.stamp].map(recordText).join(' | ')+'\n'+c.rows.map(r=>recordText(r.label)+' | '+recordText(r.text)+(r.hidden?' *':'')).join('\n')).join('\n---\n');}
+function chapterHTML(rows,p,numbered,open){return rows.map((r,i)=>'<details class="'+p+'chapter"'+(open&&i===0?' open':'')+'>\n<summary>'+(numbered?'第 '+(i+1)+' 章　':'')+esc(r.title)+'</summary>\n<div class="'+p+'chapter-body"><p>'+block(r.body)+'</p></div>\n</details>').join('\n');}
+templates.chapters.derive=(v,p)=>({chaptersHTML:chapterHTML(readChapterRecords(v.chapters),p,v.numbered,v.open)});
+templates.cards.derive=(v,p)=>({cardsHTML:readCardRecords(v.cards).map(c=>'<div class="'+p+'file">'+(c.stamp?'<span class="'+p+'stamp">'+esc(c.stamp)+'</span>':'')+'<p class="'+p+'fileno">'+esc(c.id)+'</p><p class="'+p+'filename">'+esc(c.title)+'</p>'+c.rows.map(r=>r.hidden?'<details class="'+p+'redact"'+(v.open?' open':'')+'><summary><strong>'+esc(r.label)+'：</strong><span class="'+p+'bar">█████</span></summary><p>'+block(r.text)+'</p></details>':'<p class="'+p+'filerow"><strong>'+esc(r.label)+'：</strong>'+block(r.text)+'</p>').join('\n')+'</div>').join('\n')});
+templates.cards.fields.find(f=>f.key==='open').label='导出时默认解除遮盖';
+templates.footnote.fields.find(f=>f.key==='body').help='先在正文中点选插入位置，再用下方按钮插入注释。编号会自动生成；文末注释方便触屏阅读。';
+const paperFields=()=>[F('background','纸张底色','color','#faf3e6'),F('text','文字颜色','color','#4b4138'),F('accent','强调色','color','#922c35')];
+templates.sealed={fields:[F('recipient','收件人','text','演示文字'),F('sender','寄件人','text','演示文字'),F('body','信件正文','textarea','演示文字\n演示文字'),F('open','默认拆开','checkbox',false),...paperFields()],degradation:'收件人、寄件人和信件正文均保留；关闭皮肤后仍可点击拆信。封口只作装饰。',
+ css:'.{{p}}envelope { max-width: 520px; margin: 0 auto; border: 1px solid {{accent}}; background: {{background}}; color: {{text}}; line-height: 1.9; }\n.{{p}}envelope summary { padding: 26px; cursor: pointer; border-bottom: 1px dashed {{accent}}; }\n.{{p}}seal { display: inline-block; margin: 0 12px; padding: 8px; border: 2px solid {{accent}}; border-radius: 50%; color: {{accent}}; }\n.{{p}}letterbody { padding: 24px; word-wrap: break-word; }\n.{{p}}signature { text-align: right; }',
+ html:'<details class="{{p}}envelope"{{openAttr}}><summary><strong>收件人：{{recipient}}</strong> <span class="{{p}}seal">✉</span><small>点击拆信 / 收起</small></summary><div class="{{p}}letterbody"><p>{{bodyHTML}}</p><p class="{{p}}signature">寄件人：{{sender}}</p></div></details>',derive(v){return{openAttr:v.open?' open':'',bodyHTML:block(v.body)};}};
+metadata.sealed=['密封信','点击拆开信封，阅读信件','interactive'];
+templates.memo={fields:[F('title','标题','text','演示文字'),F('date','日期（可留空）','text','演示文字'),F('body','备忘内容','textarea','演示文字\n演示文字'),F('extra','折叠补充（可留空）','textarea','演示文字'),...paperFields()],degradation:'标题、日期和备忘内容按顺序排列；补充内容仍可点击展开。列表符号不代表可勾选控件。',
+ css:'.{{p}}memo { max-width: 480px; margin: 0 auto; padding: 22px; border-top: 5px solid {{accent}}; border-radius: 8px; background: {{background}}; color: {{text}}; line-height: 1.9; word-wrap: break-word; }\n.{{p}}memo h3 { margin: 0; }\n.{{p}}memo small { color: {{text}}; }\n.{{p}}memo li { padding: 7px 0; border-bottom: 1px solid {{accent}}; }\n.{{p}}memo details { margin-top: 18px; }\n.{{p}}memo summary { cursor: pointer; color: {{accent}}; }',
+ html:'<div class="{{p}}memo"><h3>{{title}}</h3><p><small>{{date}}</small></p><ul>{{itemsHTML}}</ul>{{extraHTML}}</div>',derive(v,p){return{itemsHTML:lines(v.body,100).map(t=>'<li>'+esc(t)+'</li>').join('\n'),extraHTML:v.extra.trim()?'<details><summary>展开补充</summary><p>'+block(v.extra)+'</p></details>':''};}};
+metadata.memo=['备忘录','按行列出备忘，点击查看补充','interactive'];
+templates.clues={fields:[F('stages','线索内容','textarea','演示文字\n演示文字\n---\n演示文字\n演示文字'),...paperFields()],degradation:'每层线索都是原生折叠块，按顺序点击即可阅读。没有分支记忆或游戏存档。',
+ css:'.{{p}}clues { max-width: 560px; margin: 0 auto; color: {{text}}; line-height: 1.9; }\n.{{p}}clue { padding: 12px; margin: 10px 0; border: 1px solid {{accent}}; background: {{background}}; border-radius: 6px; word-wrap: break-word; }\n.{{p}}clue summary { cursor: pointer; color: {{accent}}; font-weight: bold; }\n.{{p}}clue .{{p}}clue { margin-left: 0; margin-right: 0; padding: 8px 0 0; border-left: 0; border-right: 0; border-bottom: 0; border-radius: 0; }',
+ html:'<div class="{{p}}clues">{{stagesHTML}}</div>',derive(v,p){const rows=readChapterRecords(v.stages);let inner='';for(let i=rows.length-1;i>=0;i--)inner='<details class="'+p+'clue"><summary>'+esc(rows[i].title)+'</summary><p>'+block(rows[i].body)+'</p>'+inner+'</details>';return{stagesHTML:inner};}};
+metadata.clues=['逐层线索卡','逐层点击，按顺序揭晓内容','interactive'];
+for(const key of MOTION_KEYS)templates[key].fields.push(F('motion','互动效果','select','soft',{options:[['none','无动效'],['soft','轻微'],['full','明显']]}));
+function polishOutput(code,key,v,p){
+ if(NARRATIVE_KEYS.includes(key)||!MOTION_KEYS.includes(key)||v.motion==='none')return code;
+ const duration=v.motion==='full'?'.45s':'.25s',shift=v.motion==='full'?'4px':'2px',angle=v.motion==='full'?'-8deg':'-3deg';
+ const root={player:'player',popup:'popups',cards:'files',chapters:'chapters',details:'details',sealed:'envelope',memo:'memo',clues:'clues'}[key];
+ // Visible summary decorations can transition in both directions; the native body opens immediately.
+ code.html=code.html.replace(/<summary([^>]*)>([\s\S]*?)<\/summary>/g,(_,attrs,body)=>{const arrow=' <span class="'+p+'motion-arrow">▸</span>';return '<summary'+attrs+'>'+(key==='player'&&body.includes(p+'mphint')?body.replace('</small>',arrow+'</small>'):body+arrow)+'</summary>';});
+ const q='.'+p;
+ let css=q+root+' summary, details'+q+root+' > summary { list-style: none; }\n'+q+'motion-arrow { display: inline-block; margin-left: 8px; transition: transform '+duration+' ease; }\n'+q+root+' details[open] > summary '+q+'motion-arrow, details'+q+root+'[open] > summary '+q+'motion-arrow { transform: rotate(90deg); }';
+ if(key==='chapters'||key==='clues')css+='\n'+q+(key==='chapters'?'chapter':'clue')+'[open] > summary > '+q+'motion-arrow { transform: rotate(90deg); }';
+ if(key==='player')css+='\n'+q+'player '+q+'mpcover { transition: transform '+duration+' ease; }\n'+q+'player '+q+'mp[open] > summary '+q+'mpcover { transform: translateY(-'+shift+') rotate('+angle+'); }';
+ if(key==='popup')css+='\n'+q+'popitem { transition: border-color '+duration+' ease; }\n'+q+'popicon { transition: transform '+duration+' ease; }\n'+q+'popitem[open] > summary '+q+'popicon { transform: translateY(-'+shift+'); }';
+ if(key==='cards')css+='\n'+q+'bar { display: inline-block; transition: opacity '+duration+' ease, transform '+duration+' ease; }\n'+q+'redact[open] > summary '+q+'bar { opacity: 0.2; transform: translateX('+shift+'); }';
+ if(key==='sealed')css+='\n'+q+'seal { transition: transform '+duration+' ease; }\n'+q+'envelope[open] > summary '+q+'seal { transform: rotate('+angle+') translateY(-'+shift+'); }';
+ return{css:code.css+'\n'+css,html:code.html};
+}
+let clearUndo=null;
+function renderStructuredFields(){
+ if(['chapters','clues'].includes(state.template))renderChapterForm();
+ if(state.template==='cards')renderCardForm();
+ if(state.template==='footnote')renderFootnoteTool();
+}
+function rawRecords(key,caption){
+ const area=$('content-fields'),panel=document.createElement('details');panel.className='interaction-raw';const summary=document.createElement('summary');summary.textContent=caption;panel.append(summary,fieldNode(templates[state.template].fields.find(f=>f.key===key)));
+ const help=document.createElement('p');help.className='muted';help.textContent='编辑原文后，点“更新上方表单”再继续填表，避免覆盖刚粘贴的内容。';panel.append(help,button('更新上方表单',()=>{renderFields();refresh();},'quiet'));
+ panel.querySelector('textarea').addEventListener('input',()=>area.querySelector('.structured-editor')?.querySelectorAll('input,textarea,select,button').forEach(el=>el.disabled=true));area.append(panel);
+}
+function structuredSection(title){const section=document.createElement('div');section.className='structured-editor';const h=document.createElement('h3');h.textContent=title;section.append(h);$('content-fields').append(section);return section;}
+function renderChapterForm(){
+ const k=state.template,key=k==='clues'?'stages':'chapters',unit=k==='clues'?'线索':'章节',section=structuredSection(unit+'列表');let rows;
+ try{rows=readChapterRecords(valuesFor(k)[key]);}catch(e){const p=document.createElement('p');p.className='inline-error';p.textContent=e.message;section.append(p);rawRecords(key,'高级：批量原文');return;}
+ const commit=()=>{state.values[k]={...valuesFor(k),[key]:writeChapterRecords(rows)};refresh();};
+ rows.forEach((r,i)=>{const box=document.createElement('div');box.className='message-row';const head=document.createElement('div');head.className='message-top';head.textContent='第 '+(i+1)+' 个'+unit;const actions=document.createElement('span');
+  for(const [label,offset] of [['上移',-1],['下移',1]]){const move=button(label,()=>{[rows[i],rows[i+offset]]=[rows[i+offset],rows[i]];commit();renderFields();});move.disabled=i+offset<0||i+offset>=rows.length;move.setAttribute('aria-label',label+'第 '+(i+1)+' 个'+unit);actions.append(move);}
+  actions.append(button('删除',()=>{rows.splice(i,1);commit();renderFields();}));head.append(actions);box.append(head,interactionField(unit+' '+(i+1)+' · 标题',r.title,x=>{r.title=x;commit();}),interactionField(unit+' '+(i+1)+' · 正文',r.body,x=>{r.body=x;commit();},'textarea'));section.append(box);});
+ const add=button('+ 添加'+unit,()=>{rows.push({title:'演示文字',body:'演示文字'});commit();renderFields();},'add');add.disabled=rows.length>=20;section.append(add);rawRecords(key,'高级：批量粘贴'+unit);
+}
+function renderCardForm(){
+ const section=structuredSection('档案列表');let cards;try{cards=readCardRecords(valuesFor('cards').cards);}catch(e){const p=document.createElement('p');p.className='inline-error';p.textContent=e.message;section.append(p);rawRecords('cards','高级：批量档案原文');return;}
+ const commit=()=>{state.values.cards={...valuesFor('cards'),cards:writeCardRecords(cards)};refresh();};
+ cards.forEach((c,i)=>{const box=document.createElement('div');box.className='message-row';const head=document.createElement('div');head.className='message-top';head.textContent='档案 '+(i+1);head.append(button('删除档案',()=>{cards.splice(i,1);commit();renderFields();}));box.append(head);
+  for(const [key,label] of [['id','编号'],['title','姓名 / 标题'],['stamp','印章（可留空）']])box.append(interactionField('档案 '+(i+1)+' · '+label,c[key],x=>{c[key]=x;commit();}));
+  c.rows.forEach((r,j)=>{const row=document.createElement('div');row.className='record-field';row.append(interactionField('档案 '+(i+1)+' 字段 '+(j+1)+' · 名称',r.label,x=>{r.label=x;commit();}),interactionField('档案 '+(i+1)+' 字段 '+(j+1)+' · 内容',r.text,x=>{r.text=x;commit();},'textarea'));
+   const check=document.createElement('label');check.className='check';const input=document.createElement('input');input.type='checkbox';input.checked=r.hidden;input.addEventListener('change',()=>{r.hidden=input.checked;commit();});check.append(input,document.createTextNode('隐藏此字段，读者点击后查看'));row.append(check,button('删除字段',()=>{c.rows.splice(j,1);commit();renderFields();}));box.append(row);});
+  const add=button('+ 添加字段',()=>{c.rows.push({label:'演示文字',text:'演示文字',hidden:false});commit();renderFields();},'add');add.disabled=c.rows.length>=30;box.append(add);section.append(box);});
+ const add=button('+ 添加档案',()=>{cards.push({id:String(cards.length+1).padStart(3,'0'),title:'演示文字',stamp:'',rows:[{label:'演示文字',text:'演示文字',hidden:false}]});commit();renderFields();},'add');add.disabled=cards.length>=20;section.append(add);rawRecords('cards','高级：批量档案原文');
+}
+function renderFootnoteTool(){
+ const body=$('param-body');if(!body)return;const section=document.createElement('div');section.className='footnote-tool';const hint=document.createElement('p');hint.className='muted';hint.textContent='在上方正文中点选位置，注释将插在光标后。工具自动添加的 [[…]] 是注释标记。';const field=interactionField('要插入的注释','',()=>{});const input=field.querySelector('input');input.maxLength=4000;const error=document.createElement('p');error.className='inline-error';error.setAttribute('role','status');
+ const insert=button('插入注释',()=>{const note=input.value.trim();if(!note||/\[\[|\]\]/.test(note)){error.textContent='请填写注释，内容中不要包含连续的双层方括号。';return;}if((body.value.match(/\[\[(.+?)\]\]/g)||[]).length>=30){error.textContent='最多 30 条注释，已有正文保留。';return;}const at=body.selectionEnd;body.setRangeText('[['+note+']]',at,at,'end');body.dispatchEvent(new Event('input',{bubbles:true}));input.value='';error.textContent='已插入，可在预览和文末查看编号。';},'primary');section.append(hint,field,insert,error);body.closest('label').after(section);
+}
+function contentSnapshot(){return JSON.stringify({values:state.values[state.template]||{},conversation:['chat','dialogue'].includes(state.template)?conversation(state.template):null});}
+function renderContentActions(){
+ const area=$('content-fields'),box=document.createElement('div');box.className='content-actions';
+ box.append(button('清空本模板内容',()=>{const key=state.template,before=contentSnapshot();if(['chat','dialogue'].includes(key)){const data=conversation(key);data.messages=[{role:0,body:'',time:''}];}else{const values=valuesFor(key);for(const f of templates[key].fields)if(['text','textarea'].includes(f.type)&&!['triggerText','returnText','effectPrompt','effectEnd','endText','ornamentBefore','ornamentAfter'].includes(f.key))values[f.key]=['slipsJSON','stopsJSON'].includes(f.key)?'[]':'';state.values[key]=values;}clearUndo={key,before,after:contentSnapshot()};renderFields();refresh();toast('内容已清空，可撤销；样式保留。');},'quiet'));
+ if(clearUndo?.key===state.template)box.append(button('撤销清空',()=>{if(contentSnapshot()!==clearUndo.after&&!window.confirm('恢复清空前内容会替换清空后新增的文字。继续恢复？'))return;const prior=JSON.parse(clearUndo.before);state.values[state.template]=prior.values;if(prior.conversation)state[conversationKey()]=prior.conversation;clearUndo=null;renderFields();refresh();},'quiet'));
+ const cap=area.querySelector('.capability-note');if(cap)cap.after(box);else area.prepend(box);
+}
+function foldOptionalContent(){
+ const area=$('content-fields'),nodes=[];
+ for(const f of templates[state.template].fields){if(/可留空|可不填/.test(f.label)||(state.template==='player'&&['review','note'].includes(f.key))){const node=$('param-'+f.key)?.closest('label');if(node&&node.parentElement===area)nodes.push(node);}}
+ if(state.template==='player'){const playlist=area.querySelector('.interaction-editor');if(playlist)nodes.push(playlist);const raw=area.querySelector('.interaction-raw');if(raw)nodes.push(raw);}
+ if(!nodes.length)return;const details=document.createElement('details');details.className='optional-content';const summary=document.createElement('summary');summary.textContent='可选内容 · 需要时再填写';const hint=document.createElement('p');hint.className='muted';hint.textContent='收起不会删除已填内容。留空的项目不会显示在正文中。';details.append(summary,hint,...nodes);area.append(details);
+}
+function renderCapability(){
+ if(state.mode!=='template')return;const area=$('content-fields'),hint=document.createElement('p');hint.className='capability-note';hint.textContent=CLICK_APPROXIMATIONS.includes(valuesFor(state.template).readingEffect)?READING_LABELS[valuesFor(state.template).readingEffect]+' · 单次点击':state.template==='popup'&&valuesFor('popup').noticeMode==='static'?'静态通知 · 全文直接显示':CAPABILITIES[state.template]||'填入内容后，预览会立即更新。';area.prepend(hint);
+ if(MOTION_KEYS.includes(state.template)&&!CLICK_APPROXIMATIONS.includes(valuesFor(state.template).readingEffect)&&!(state.template==='memo'&&!valuesFor('memo').withExtra)&&!(state.template==='popup'&&valuesFor('popup').noticeMode==='static')){
+  const styles=$('style-fields'),panel=document.createElement('div');panel.className='motion-settings';panel.append(fieldNode(templates[state.template].fields.find(f=>f.key==='motion')));const p=document.createElement('p');p.className='muted';p.textContent=NARRATIVE_KEYS.includes(state.template)?'选择文字呈现的节奏。阅读提示语可以在“内容”中改写；触屏也可点击。导出效果仍需在 AO3 Preview 检查。':'平滑效果作用于箭头、封面或装饰；正文原生展开。已做浏览器检查，尚未在 AO3 实测；可选“无动效”。';panel.append(p);styles.prepend(panel);
+ }
+}
+
+// Narrative reading templates. Native details owns state; exported content has no script.
+// Adapted state/opacity/stagger techniques from XinqiBao/ao3-effects-toolkit (MIT).
+const NARRATIVE_KEYS=['sealed','photo','manuscript','evidence','transcript','ink','afterreading','route','secret'];
+const readingMotion=()=>F('motion','阅读节奏','select','soft',{options:[['none','直接呈现'],['soft','自然'],['full','慢一些']]});
+const readingFields=(trigger,back)=>[F('triggerText','阅读提示语','text',trigger),F('returnText','收起提示语','text',back)];
+const readingStyle=()=>[...paperFields(),F('width','区域最大宽度','number',520,{min:260,max:900}),readingMotion()];
+function graphemes(s){return typeof Intl.Segmenter==='function'?Array.from(new Intl.Segmenter('zh',{granularity:'grapheme'}).segment(String(s)),x=>x.segment):Array.from(String(s));}
+function readingLimit(n,max,label){if(n>max)throw Error(label+'超过 '+max+'，请分成几个片段。原文已保留，没有截断。');}
+function readingBase(v,p){const q='.'+p;return `${q}story { max-width: ${v.width||520}px; margin: 18px auto; color: ${v.text}; background: ${v.background}; border: 1px solid ${v.accent}; border-radius: 6px; line-height: 1.9; word-wrap: break-word; }
+${q}story-switch { margin: 0; padding: 0; border: 0; }
+${q}story-switch > summary { list-style: none; cursor: pointer; padding: 14px 22px; border-bottom: 1px dashed ${v.accent}; }
+${q}story-switch > summary::-webkit-details-marker { display: none; }
+${q}story-switch > summary:focus { outline: 2px solid ${v.accent}; outline-offset: 3px; }
+${q}story-content { padding: 22px; }
+${q}story strong { color: ${v.accent}; }
+${q}text, ${q}piece, ${q}reveal, ${q}cue, ${q}result { display: block; }
+${q}text { white-space: pre-wrap; }
+${q}cue { color: ${v.accent}; font-size: .9em; }
+${q}when-open { display: none; }
+${q}story-switch[open] > summary ${q}when-open { display: inline; }
+${q}story-switch[open] > summary ${q}when-closed { display: none; }
+${q}fallback { display: none; }
+${q}reveal { height: 0; overflow: hidden; opacity: 0; transform: translateY(8px); }
+${q}story-switch[open] ~ ${q}story-content ${q}reveal { height: auto; opacity: 1; transform: translateY(0); }
+${v.motion==='none'?'':`${q}reveal { transition: opacity ${v.motion==='full'?'.9':'.5'}s ease, transform ${v.motion==='full'?'.9':'.5'}s ease; }`}`;}
+function readingCue(v,p){return `<span class="${p}cue"><span class="${p}when-closed">${esc(v.triggerText)}</span><span class="${p}fallback"> / </span><span class="${p}when-open">${esc(v.returnText)}</span></span>`;}
+function readingShell(v,p,content,kind){return '<div class="'+p+'story '+p+kind+'"><details class="'+p+'story-switch"'+(v.open?' open':'')+'><summary>'+readingCue(v,p)+'</summary></details><div class="'+p+'story-content">'+content+'</div></div>';}
+const textSpan=(s,p)=>`<span class="${p}text">${esc(s)}</span>`;
+function addReading(key,name,description,fields,derive,degradation){templates[key]={fields:[...fields,...readingStyle()],css:'{{storyCSS}}',html:'{{storyHTML}}',derive,degradation:degradation||'关闭皮肤后，正文和补充内容按顺序完整显示。点击状态不保存，刷新后可重新阅读。'};metadata[key]=[name,description,'interactive'];CAPABILITIES[key]='点击阅读 · 手机可用';if(!MOTION_KEYS.includes(key))MOTION_KEYS.push(key);}
+
+// Preserve the existing sealed-letter field names so saved letters still load.
+addReading('sealed','拆信与折信','拆开信封，纸面依次展开',[F('recipient','收件人','text','演示文字'),F('sender','寄件人','text','演示文字'),F('body','信件正文','textarea','演示文字\n演示文字\n演示文字'),...readingFields('拆开这封信','收好信件'),F('open','默认拆开','checkbox',false)],(v,p)=>{
+ const rows=String(v.body).split(/\r?\n/),size=Math.max(1,Math.ceil(rows.length/3)),parts=[];for(let i=0;i<rows.length;i+=size)parts.push(rows.slice(i,i+size).join('\n'));
+ let css=readingBase(v,p)+`\n.${p}sheet { display: block; padding: 14px 0; border-bottom: 1px solid ${v.accent}; white-space: pre-wrap; transform: scaleY(.03); transform-origin: center top; opacity: 0; }\n.${p}story[open] .${p}sheet { transform: scaleY(1); opacity: 1; }\n.${p}signature { display: block; text-align: right; margin-top: 12px; }`;
+ if(v.motion!=='none')parts.forEach((_,i)=>{css+=`\n.${p}sheet-${i} { transition: transform ${v.motion==='full'?'.9':'.55'}s ease ${i*.15}s, opacity .45s ease ${i*.15}s; }`;});
+ const content=`<strong>收件人：${esc(v.recipient)}</strong><span class="${p}reveal">${parts.map((s,i)=>`<span class="${p}sheet ${p}sheet-${i}">${esc(s)}</span>`).join('')}<span class="${p}signature">寄件人：${esc(v.sender)}</span></span>`;
+ return{storyCSS:css,storyHTML:readingShell(v,p,content,'envelope')};
+});
+addReading('photo','照片背面','翻看照片，读到背面留下的话',[F('front','照片正面文字或画面描述','textarea','演示文字'),F('caption','照片说明','text','演示文字'),F('body','背面留言','textarea','演示文字'),...readingFields('翻看照片背面','再看看正面')],(v,p)=>{
+ let css=readingBase(v,p)+`\n.${p}photo-face { display: block; position: relative; min-height: 190px; border: 9px solid #ffffff; box-shadow: 0 2px 8px #00000022; }\n.${p}photo-front { display: block; position: absolute; top: 0; left: 0; right: 0; bottom: 0; padding: 20px; background: ${v.accent}; color: ${v.background}; opacity: 1; overflow: auto; }\n.${p}photo-back { display: block; min-height: 172px; padding: 20px; opacity: 0; background: ${v.background}; }\n.${p}photo[open] .${p}photo-front { opacity: 0; }\n.${p}photo[open] .${p}photo-back { opacity: 1; }\n.${p}caption { display: block; margin-top: 14px; text-align: center; }`;
+ if(v.motion!=='none')css+=`\n.${p}photo-front, .${p}photo-back { transition: opacity ${v.motion==='full'?'1':'.6'}s ease; }`;
+ return{storyCSS:css,storyHTML:readingShell(v,p,`<span class="${p}photo-face"><span class="${p}photo-front"><span class="${p}fallback">照片正面：</span>${textSpan(v.front,p)}</span><span class="${p}photo-back"><span class="${p}fallback">照片背面：</span>${textSpan(v.body,p)}</span></span><span class="${p}caption">${esc(v.caption)}</span>`,'photo')};
+},'关闭皮肤后依次显示照片正面描述、背面留言和说明。照片使用文字描述，不依赖外部图片；外观以正反面淡入淡出模拟翻看。');
+addReading('manuscript','手稿与旁批','读到被改写的句子和页边批注',[F('body','手稿正文','textarea','演示文字'),F('oldText','原来的句子','textarea','演示文字'),F('newText','改写后的句子','textarea','演示文字'),F('note','旁批（可留空）','textarea','演示文字'),...readingFields('看看修改痕迹','回到原稿')],(v,p)=>{
+ const css=readingBase(v,p)+`\n.${p}old { display: block; text-decoration: none; }\n.${p}manuscript[open] .${p}old { text-decoration: line-through; opacity: .6; }\n.${p}addition { display: block; border-left: 3px solid ${v.accent}; padding-left: 14px; margin-top: 14px; }\n.${p}margin-note { display: block; padding: 14px; border: 1px dashed ${v.accent}; margin-top: 16px; font-size: .9em; }`;
+ return{storyCSS:css,storyHTML:readingShell(v,p,`${textSpan(v.body,p)}<del class="${p}old">${block(v.oldText)}</del><span class="${p}reveal"><ins class="${p}addition">${block(v.newText)}</ins>${v.note.trim()?`<span class="${p}margin-note"><strong>旁批：</strong>${textSpan(v.note,p)}</span>`:''}</span>`,'manuscript')};
+});
+addReading('evidence','档案夹页','从正文中展开票据、便笺和补充记录',[F('title','档案标题','text','演示文字'),F('body','档案正文','textarea','演示文字'),F('slipTitle','第一张夹页标题','text','演示文字'),F('slipBody','第一张夹页正文','textarea','演示文字'),F('extraTitle','第二张夹页标题（可留空）','text','演示文字'),F('extraBody','第二张夹页正文（可留空）','textarea','演示文字'),...readingFields('查看夹在里面的纸页','合上档案')],(v,p)=>{
+ let css=readingBase(v,p)+`\n.${p}slip { display: block; padding: 18px; margin: 16px 0 0; border: 1px dashed ${v.accent}; box-shadow: 2px 3px 0 ${v.accent}; }\n.${p}evidence .${p}reveal { transform: translateY(14px) rotate(-2deg); }\n.${p}evidence[open] .${p}reveal { transform: translateY(0) rotate(0deg); }`;
+ return{storyCSS:css,storyHTML:readingShell(v,p,`<strong>${esc(v.title)}</strong>${textSpan(v.body,p)}<span class="${p}reveal"><span class="${p}slip"><strong>${esc(v.slipTitle)}</strong>${textSpan(v.slipBody,p)}</span>${v.extraBody.trim()?`<span class="${p}slip"><strong>${esc(v.extraTitle)}</strong>${textSpan(v.extraBody,p)}</span>`:''}</span>`,'evidence')};
+});
+addReading('transcript','逐段读取','记录逐行浮现，或短句逐字显现',[F('title','记录标题','text','演示文字'),F('body','记录正文','textarea','演示文字\n演示文字\n演示文字',{help:'按换行逐行显现，最多 100 行。逐字模式适合 300 字以内的短句。'}),F('revealMode','读取方式','select','line',{options:[['line','逐行显现'],['character','逐字显现']]}),...readingFields('继续读取','收起记录')],(v,p)=>{
+ const chars=v.revealMode==='character',parts=chars?graphemes(v.body):String(v.body).split(/\r?\n/);readingLimit(parts.length,chars?300:100,chars?'逐字内容字数':'记录行数');
+ let css=readingBase(v,p)+`\n.${p}reading-lines { display: block; height: 0; overflow: hidden; white-space: pre-wrap; }\n.${p}transcript[open] .${p}reading-lines { height: auto; }\n.${p}unit { display: ${chars?'inline':'block'}; opacity: 0; }\n.${p}transcript[open] .${p}unit { opacity: 1; }`;
+ if(v.motion!=='none')parts.forEach((_,i)=>{const delay=i*(chars?(v.motion==='full'?.05:.025):(v.motion==='full'?.4:.18));css+=`\n.${p}unit-${i} { transition: opacity ${chars?'.15':'.5'}s ease ${delay.toFixed(3)}s; }`;});
+ return{storyCSS:css,storyHTML:readingShell(v,p,`<strong>${esc(v.title)}</strong><span class="${p}reading-lines">${parts.map((s,i)=>`<span class="${p}unit ${p}unit-${i}">${esc(s)||'<br>'}</span>`).join(chars?'':'\n')}</span>`,'transcript')};
+});
+addReading('ink','辨认字迹','模糊的文字随着辨认逐渐清晰',[F('body','需要辨认的文字','textarea','演示文字\n演示文字'),...readingFields('仔细辨认','让记忆退远')],(v,p)=>{
+ let css=readingBase(v,p)+`\n.${p}ink .${p}text { filter: blur(4px); opacity: .3; }\n.${p}ink[open] .${p}text { filter: blur(0); opacity: 1; }`;
+ if(v.motion!=='none')css+=`\n.${p}ink .${p}text { transition: filter ${v.motion==='full'?'1.8':'.9'}s ease, opacity ${v.motion==='full'?'1.8':'.9'}s ease; }`;
+ return{storyCSS:css,storyHTML:readingShell(v,p,textSpan(v.body,p),'ink')};
+});
+addReading('afterreading','阅后字迹消散','阅读完毕，字迹依次消失',[F('body','短笺正文','textarea','演示文字\n演示文字',{help:'最多 300 字。阅读提示语由你决定；这是视觉效果，关闭皮肤或刷新后仍能重读。'}),F('triggerText','阅读提示语','text','阅读完毕？'),F('endText','变化后的文字','text','字迹已不可辨认')],(v,p)=>{
+ const units=graphemes(v.body);readingLimit(units.length,300,'短笺字数');const q='.'+p,step=v.motion==='full'?.06:.025,last=Math.max(0,units.length-1)*step;
+ let css=readingBase(v,p)+`\n${q}afterreading { padding: 22px; display: flex; flex-direction: column; }\n${q}afterreading > summary { padding: 0; }\n${q}burn-switch { border: 0; margin: 0; background: transparent; order: 2; }\n${q}burn-switch > summary { display: block; cursor: pointer; padding: 10px 0; color: ${v.accent}; list-style: none; }\n${q}burn-switch > summary::-webkit-details-marker { display: none; }\n${q}burn-switch[open] > summary { display: none; }\n${q}burn-text { display: block; white-space: pre-wrap; margin-top: 12px; order: 1; }\n${q}ember { color: ${v.text}; opacity: 1; filter: blur(0); }\n${q}burn-switch[open] ~ ${q}burn-text ${q}ember { color: #9c4b20; opacity: 0; filter: blur(3px); }\n${q}burn-end { display: block; opacity: 0; margin-top: 12px; order: 3; }\n${q}burn-switch[open] ~ ${q}burn-end { opacity: 1; }`;
+ if(v.motion!=='none'){units.forEach((_,i)=>{css+=`\n${q}ember-${i} { transition: color .25s ease ${(i*step).toFixed(3)}s, opacity .6s ease ${(i*step+.25).toFixed(3)}s, filter .6s ease ${(i*step+.25).toFixed(3)}s; }`;});css+=`\n${q}burn-end { transition: opacity .5s ease ${(last+.85).toFixed(3)}s; }`;}
+ return{storyCSS:css,storyHTML:`<div class="${p}story ${p}afterreading"><details class="${p}burn-switch"><summary>${esc(v.triggerText)}</summary></details><span class="${p}burn-text">${units.map((s,i)=>`<span class="${p}ember ${p}ember-${i}">${esc(s)}</span>`).join('')}</span><span class="${p}burn-end">${esc(v.endText)}</span></div>`};
+},'关闭皮肤后短笺原文与结尾文字完整保留。效果不能真正删除文字；界面不提供恢复入口，刷新后可以重读。');
+addReading('route','路线札记','沿着地点，读到途中留下的记录',[F('body','旅途开头','textarea','演示文字'),F('place1','第一站','text','演示文字'),F('note1','第一站记录','textarea','演示文字'),F('place2','第二站','text','演示文字'),F('note2','第二站记录','textarea','演示文字'),F('place3','第三站','text','演示文字'),F('note3','第三站记录','textarea','演示文字'),...readingFields('沿着这条路','收起路线')],(v,p)=>{
+ let css=readingBase(v,p)+`\n.${p}stop { display: block; padding: 16px 0 16px 18px; border-left: 2px solid ${v.accent}; }\n.${p}stop strong { display: block; }`;
+ return{storyCSS:css,storyHTML:readingShell(v,p,`${textSpan(v.body,p)}<span class="${p}reveal">${[1,2,3].map(i=>`<span class="${p}stop"><strong>○ ${esc(v['place'+i])}</strong>${textSpan(v['note'+i],p)}</span>`).join('')}</span>`,'route')};
+});
+addReading('secret','分隔线里的话','在段落间留下一句可展开的短话',[F('body','展开后的文字','textarea','演示文字'),...readingFields('还有一句话','暂且收起')],(v,p)=>{
+ let css=readingBase(v,p)+`\n.${p}secret { border: 0; border-top: 1px solid ${v.accent}; border-bottom: 1px solid ${v.accent}; background: transparent; text-align: center; }\n.${p}secret .${p}cue { border: 0; margin-top: 0; }\n.${p}secret[open] .${p}cue { margin-top: 16px; }`;
+ return{storyCSS:css,storyHTML:readingShell(v,p,`<span class="${p}reveal">${textSpan(v.body,p)}</span>`,'secret')};
+});
+TEMPLATE_GROUPS.push(['阅读情境 · 文字在场景中变化',NARRATIVE_KEYS.filter(k=>k!=='sealed')]);
+CAPABILITIES.sealed='点击拆信 · 纸面展开';
+CAPABILITIES.afterreading='阅读完毕后 · 逐字灼暗';
+CAPABILITIES.transcript='点击读取 · 逐行或逐字';
+
+// Six task entries; existing renderer keys remain valid for v2 drafts.
+const CARRIERS=[
+ {key:'conversation',name:'捡手机体',description:'粘贴对话，切换气泡或角色台词',presets:[['chat','聊天气泡'],['dialogue','角色台词']]},
+ {key:'paper',name:'信件、手稿',description:'信纸、日记和备忘录',presets:[['letter','普通信纸 / 日记'],['sealed','拆信与折信'],['memo','备忘录'],['manuscript','手稿与旁批']]},
+ {key:'social',name:'仿社交媒体',description:'朋友圈、手机通知和系统对话框',presets:[['social','推特体'],['moments','朋友圈'],['popup','消息与通知']]},
+ {key:'archive',name:'档案与记录',description:'档案、夹页、线索、路线和剪报',presets:[['cards','档案卡'],['evidence','档案夹页'],['clues','逐层线索'],['route','路线札记'],['news','报纸剪报']]},
+ {key:'prose',name:'正文排版',description:'调整正文、整篇配色、脚注和章节',presets:[['typography','正文段落'],['theme','整篇配色'],['footnote','正文与脚注'],['chapters','章节分组']]},
+ {key:'props',name:'照片与音乐',description:'照片背面留言和模拟音乐播放器',presets:[['photo','照片背面'],['player','音乐播放器']]}
+];
+const LEGACY_CARRIERS={system:'social',details:'prose',hover:'prose',effects:'prose',decoration:'prose',transcript:'prose',ink:'paper',afterreading:'paper',secret:'prose'};
+function carrierFor(key){return CARRIERS.find(c=>c.presets.some(p=>p[0]===key))||CARRIERS.find(c=>c.key===LEGACY_CARRIERS[key])||CARRIERS[0];}
+const READING_CHOICES={chat:['fold','lines'],dialogue:['fold','lines'],letter:['fold','ink','burn','flame','page','wipe','glitch'],memo:['fold','ink','flame','page','wipe','glitch'],news:['fold'],typography:['fold','lines','ink','burn','flame','page','wipe','glitch'],footnote:['fold']};
+const READING_LABELS={none:'直接显示',fold:'点击提示语后展开',lines:'点击后逐行显现',ink:'点击辨认模糊字迹',burn:'阅读完毕后字迹消散',flame:'阅后即焚（点击近似）',page:'翻到下一页（点击近似）',wipe:'擦除已读文字（点击近似）',glitch:'故障错位后消失（点击近似）'};
+const READING_PROMPTS={fold:'展开正文',lines:'读取记录',ink:'仔细辨认',burn:'阅读完毕？',flame:'阅读完毕？',page:'翻到下一页',wipe:'阅读完毕？',glitch:'阅读完毕？'};
+const READING_ENDINGS={burn:'字迹已不可辨认',flame:'只余灰烬',wipe:'字迹已擦去',glitch:'信号已中断'};
+const CLICK_APPROXIMATIONS=['flame','page','wipe','glitch'];
+const READING_HINTS={flame:'短文本变暖、飘散，伴随有限的余烬装饰；并非真实粒子火焰。',page:'第一页沿左侧收拢并淡出，显示下一页；点击近似，不支持拖动翻书。',wipe:'从前往后擦去已读字迹；点击触发，不跟随手指擦除。',glitch:'字迹进行一次彩色错位并淡出；不连续闪烁。'};
+const OPTIONAL_MODULES={
+ player:[{flag:'withPlaylist',label:'添加歌单',keys:['playlist'],playlist:true},{flag:'withReview',label:'添加乐评 / 歌曲介绍',keys:['review']},{flag:'withNote',label:'添加作者留言',keys:['note']}],
+ manuscript:[{flag:'withMargin',label:'添加旁批',keys:['note']}],
+ memo:[{flag:'withDate',label:'添加日期',keys:['date']},{flag:'withExtra',label:'添加折叠补充',keys:['extra']}],
+ social:[{flag:'withReplies',label:'添加回复',keys:['replies','replyName']}],
+ moments:[{flag:'withLikes',label:'添加点赞名单',keys:['likes']},{flag:'withComments',label:'添加评论',keys:['comments']}],
+ news:[{flag:'withTag',label:'添加醒目标签',keys:['tag']},{flag:'withSubhead',label:'添加副标题',keys:['subhead']},{flag:'withByline',label:'添加署名',keys:['byline']}]
+};
+const internalField=(...args)=>({...F(...args),uiHidden:true});
+for(const [key,t] of Object.entries(templates)){
+ if(READING_CHOICES[key])t.fields.push(internalField('readingEffect','阅读方式','select','none',{options:['none',...READING_CHOICES[key]].map(x=>[x,READING_LABELS[x]])}),internalField('effectPrompt','阅读提示语','text',''),internalField('revealUnit','显现单位','select','line',{options:[['line','逐行'],['character','逐字（300 字以内）']]}),internalField('effectEnd','结尾文字','text','字迹已不可辨认'),internalField('nextPage','下一页正文','textarea','演示文字'),internalField('effectPace','变化节奏','select','soft',{options:[['none','直接呈现'],['soft','自然'],['full','慢一些']]}));
+ for(const m of OPTIONAL_MODULES[key]||[]){t.fields.push(internalField(m.flag,m.label,'checkbox',false));for(const fieldKey of m.keys){const f=t.fields.find(x=>x.key===fieldKey);f.value='';f.optionalModule=m.flag;}}
+}
+for(const key of ['typography','theme','footnote'])templates[key].fields.push(internalField('withOrnament','添加前后装饰','checkbox',false),internalField('ornamentBefore','前缀装饰','text',''),internalField('ornamentAfter','后缀装饰','text',''));
+templates.popup.fields.push(internalField('noticeMode','阅读方式','select','fold',{options:[['fold','点击标题展开'],['static','直接显示全部内容']]}));
+templates.popup.fields.find(f=>f.key==='items').value=writePopupItems([{sender:'演示文字',title:'演示文字',time:'',unread:'',summary:'演示文字',body:'演示文字'}]);
+templates.popup.fields.find(f=>f.key==='okText').label='按钮文字 1（装饰，可留空）';
+templates.popup.fields.find(f=>f.key==='cancelText').label='按钮文字 2（装饰，可留空）';
+templates.player.fields.find(f=>f.key==='currentLine').value=0;templates.player.fields.find(f=>f.key==='currentLine').label='高亮第几行（0=不指定）';templates.player.fields.find(f=>f.key==='lyrics').value='演示文字\n演示文字\n演示文字';templates.player.fields.find(f=>f.key==='lyrics').help='每行一句，最多 100 句。留空不显示；需要高亮时在下方填写行号。';
+const originalPlayerDerive=templates.player.derive;
+templates.player.derive=(v,p)=>originalPlayerDerive({...v,playlist:v.withPlaylist?v.playlist:'',review:v.withReview?v.review:'',note:v.withNote?v.note:''},p);
+const originalMemoDerive=templates.memo.derive;
+templates.memo.derive=(v,p)=>({...originalMemoDerive({...v,extra:v.withExtra?v.extra:''},p),date:v.withDate?esc(v.date):''});
+const originalSocialDerive=templates.social.derive;templates.social.derive=(v,p)=>originalSocialDerive({...v,replies:v.withReplies?v.replies:''},p);
+const originalMomentsDerive=templates.moments.derive;templates.moments.derive=(v,p)=>originalMomentsDerive({...v,likes:v.withLikes?v.likes:'',comments:v.withComments?v.comments:''},p);
+const originalNewsDerive=templates.news.derive;templates.news.derive=(v,p)=>originalNewsDerive({...v,tag:v.withTag?v.tag:'',subhead:v.withSubhead?v.subhead:'',byline:v.withByline?v.byline:''},p);
+templates.news.fields.find(f=>f.key==='paper').value='演示文字';
+templates.cards.fields.find(f=>f.key==='cards').value=writeCardRecords(readCardRecords(templates.cards.fields.find(f=>f.key==='cards').value).slice(0,1));
+templates.chapters.fields.find(f=>f.key==='chapters').value=writeChapterRecords(readChapterRecords(templates.chapters.fields.find(f=>f.key==='chapters').value).slice(0,1));
+const originalManuscriptDerive=templates.manuscript.derive;
+templates.manuscript.derive=(v,p)=>originalManuscriptDerive({...v,note:v.withMargin?v.note:''},p);
+const originalPopupDerive=templates.popup.derive;
+templates.popup.derive=(v,p)=>{const d=originalPopupDerive(v,p);if(v.noticeMode==='static'){d.popHTML=d.popHTML.replace(/<details\b([^>]*)>/g,(_,a)=>'<div'+a.replace(/\sopen\b/g,'')+'>').replace(/<\/details>/g,'</div>').replace(/<summary\b/g,'<div').replace(/<\/summary>/g,'</div>');d.popHTML=d.popHTML.replace(new RegExp('<small class="'+p+'popcue">[^<]*</small>','g'),'');d.popCSS+='\n.'+p+'pophead { cursor: default; }';}return d;};
+function readExtras(value,label){let rows;try{rows=JSON.parse(value);}catch{throw Error(label+'数据无法读取，请重新导入草稿。');}if(!Array.isArray(rows)||rows.length>20)throw Error(label+'最多 20 项，原文已保留。');return rows.map(r=>{if(!r||typeof r!=='object'||typeof r.title!=='string'||typeof r.body!=='string')throw Error(label+'数据格式不正确。');if(r.title.length>400||r.body.length>16000)throw Error(label+'单项文字过长，原文已保留。');return{title:r.title,body:r.body};});}
+for(const [key,field,oldKeys] of [['evidence','slipsJSON',['slipTitle','slipBody','extraTitle','extraBody']],['route','stopsJSON',['place1','note1','place2','note2','place3','note3']]]){
+ templates[key].fields.push(internalField(field,'记录列表','textarea',JSON.stringify([{title:'演示文字',body:'演示文字'}])));
+ for(const k of oldKeys)templates[key].fields.find(f=>f.key===k).uiHidden=true;
+}
+templates.evidence.derive=(v,p)=>{
+ const rows=readExtras(v.slipsJSON,'夹页').filter(r=>r.title.trim()||r.body.trim());
+ const css=readingBase(v,p)+`\n.${p}slip { display: block; padding: 18px; margin: 16px 0 0; border: 1px dashed ${v.accent}; }`;
+ const content=`<strong>${esc(v.title)}</strong>${textSpan(v.body,p)}<span class="${p}reveal">${rows.map(r=>`<span class="${p}slip"><strong>${esc(r.title)}</strong>${textSpan(r.body,p)}</span>`).join('')}</span>`;
+ return{storyCSS:css,storyHTML:readingShell(v,p,content,'evidence')};
+};
+templates.route.derive=(v,p)=>{
+ const rows=readExtras(v.stopsJSON,'地点').filter(r=>r.title.trim()||r.body.trim());
+ const css=readingBase(v,p)+`\n.${p}stop { display: block; padding: 16px 0 16px 18px; border-left: 2px solid ${v.accent}; }`;
+ return{storyCSS:css,storyHTML:readingShell(v,p,`${textSpan(v.body,p)}<span class="${p}reveal">${rows.map(r=>`<span class="${p}stop"><strong>○ ${esc(r.title)}</strong>${textSpan(r.body,p)}</span>`).join('')}</span>`,'route')};
+};
+// The trigger is separate from the passage. Native details owns only the control.
+for(const key of NARRATIVE_KEYS.filter(k=>k!=='afterreading')){
+ const derive=templates[key].derive;
+ templates[key].derive=(v,p)=>{const d=derive(v,p),switchTo=' > .'+p+'story-switch[open] ~ .'+p+'story-content';
+  d.storyCSS=d.storyCSS.replaceAll('.'+p+'story[open]','.'+p+'story'+switchTo).replaceAll('.'+p+key+'[open]','.'+p+key+switchTo);
+  if(key==='photo')d.storyCSS+=`\n.${p}photo-front { position: static; min-height: 172px; }\n.${p}photo-back { min-height: 0; height: 0; overflow: hidden; padding: 0; }\n.${p}photo > .${p}story-switch[open] ~ .${p}story-content .${p}photo-front { display: none; }\n.${p}photo > .${p}story-switch[open] ~ .${p}story-content .${p}photo-back { height: auto; padding: 20px; min-height: 172px; }`;
+  return d;
+ };
+ templates[key].degradation+=' 阅读操作只在独立提示语上触发，正文可以正常点选。';
+}
+function migrateConsolidated(base,raw){
+ base.familyPresets={};for(const [family,key] of Object.entries(raw.familyPresets||{})){const c=CARRIERS.find(c=>c.key===family);if(c?.presets.some(p=>p[0]===key))base.familyPresets[family]=key;}
+ for(const [key,modules] of Object.entries(OPTIONAL_MODULES)){
+  const entry=base.values[key];if(!entry)continue;
+  for(const m of modules)if(!Object.hasOwn(entry,m.flag))entry[m.flag]=m.keys.some(k=>typeof entry[k]==='string'&&!!entry[k].trim());
+ }
+ for(const [key,field,pairs] of [['evidence','slipsJSON',[['slipTitle','slipBody'],['extraTitle','extraBody']]],['route','stopsJSON',[["place1","note1"],["place2","note2"],["place3","note3"]]]]){
+  const v=base.values[key];if(v&&v[field]===undefined&&pairs.some(pair=>pair.some(k=>Object.hasOwn(v,k))))v[field]=JSON.stringify(pairs.filter(([a,b])=>String(v[a]??'').trim()||String(v[b]??'').trim()).map(([a,b])=>({title:String(v[a]??''),body:String(v[b]??'')})));
+ }
+ return base;
+}
+function narrativeTextUnits(html,p){let count=0;const units=[];const value=html.replace(/(<[^>]*>)|([^<]+)/g,(all,tag,text)=>{
+ if(tag||!text.trim())return all;
+ const decoded=text.replace(/&(amp|lt|gt|quot|#39);/g,(_,k)=>({amp:'&',lt:'<',gt:'>',quot:'"','#39':"'"})[k]);
+ return graphemes(decoded).map(char=>{const n=count++;units.push(n);return '<span class="'+p+'effect-char '+p+'effect-char-'+n+'">'+esc(char)+'</span>';}).join('');
+ });return{html:value,count,units};}
+// One-shot reading states use native details; no reader-side JavaScript.
+function composeClickApproximation(code,key,v,p){
+ const mode=v.readingEffect,q='.'+p,opened=q+'read-control[open] ~ ',animated=v.effectPace!=='none',slow=v.effectPace==='full',duration=slow?1.8:1.05;
+ let html=code.html,css=code.css,after='',finish=duration;
+ css+='\n'+q+'reading-block { position: relative; display: flex; flex-direction: column; margin: 12px 0; overflow: hidden; }\n'+q+'read-control { order: 2; margin: 10px 0; padding: 0; border: 0; }\n'+q+'read-control > summary { cursor: pointer; padding: 10px 0; }\n'+q+'read-control[open] > summary { display: none; }\n'+q+'effect-stage { position: relative; order: 1; min-width: 0; word-wrap: break-word; }\n'+q+'effect-body { visibility: visible; opacity: 1; }\n'+q+'effect-end { order: 3; opacity: 0; visibility: hidden; margin: 12px 0; }\n'+opened+q+'effect-end { opacity: 1; visibility: visible; }';
+ if(mode==='page'){
+  if(!v.nextPage.trim())throw Error('请填写“下一页正文”；第一页和现有输入均已保留。');
+  if(v.nextPage.length>16000)throw Error('下一页正文超过 16000 字符，请分段；原文没有截断。');
+  const t=templates[key],next={...v,body:v.nextPage,greeting:'',signature:'',withDate:false,withExtra:false},d=t.derive?t.derive(next,p):{},vars={...Object.fromEntries(Object.entries(next).map(([k,x])=>[k,esc(x)])),p,...d};
+  const nextHTML=t.html.replace(/\{\{(\w+)\}\}/g,(_,k)=>vars[k]??'');
+  after='<div class="'+p+'effect-next">'+nextHTML+'</div>';
+  css+='\n'+q+'effect-body { transform-origin: left center; transform: scaleX(1) skewY(0deg); }\n'+q+'effect-next { height: 0; overflow: hidden; opacity: 0; visibility: hidden; }\n'+opened+q+'effect-stage > '+q+'effect-body { position: absolute; left: 0; top: 0; width: 100%; transform: scaleX(.02) skewY(-8deg); opacity: 0; visibility: hidden; }\n'+opened+q+'effect-stage > '+q+'effect-next { height: auto; opacity: 1; visibility: visible; }';
+  if(animated)css+='\n'+opened+q+'effect-stage > '+q+'effect-body { transition: transform '+duration+'s ease, opacity '+duration+'s ease, visibility 0s linear '+duration+'s; }\n'+opened+q+'effect-stage > '+q+'effect-next { transition: opacity '+duration+'s ease '+(duration*.3).toFixed(2)+'s; }';
+ }else{
+  const split=narrativeTextUnits(html,p);readingLimit(split.count,300,'含称呼、标题和署名的动效短文本字数');html=split.html;
+  const step=slow?.035:.015;finish=Math.max(0,split.count-1)*step+duration;
+  css+='\n'+q+'effect-char { display: inline-block; white-space: pre-wrap; opacity: 1; transform: translate(0,0) scaleX(1) skewX(0deg) rotate(0deg); transform-origin: left center; }';
+  for(const i of split.units){
+   const delay=i*step,sel=q+'effect-char-'+i;
+   if(mode==='flame'){
+    css+='\n'+opened+q+'effect-stage '+sel+' { color: #b45320; opacity: 0; filter: blur(3px); transform: translate('+(i%2?5:-4)+'px,-18px) rotate('+(i%2?9:-8)+'deg); }';
+    if(animated)css+='\n'+opened+q+'effect-stage '+sel+' { transition: color .25s ease '+delay.toFixed(3)+'s, transform '+duration+'s ease '+delay.toFixed(3)+'s, opacity '+duration+'s ease '+(delay+.12).toFixed(3)+'s, filter '+duration+'s ease '+delay.toFixed(3)+'s; }';
+   }else if(mode==='wipe'){
+    css+='\n'+opened+q+'effect-stage '+sel+' { opacity: 0; transform: scaleX(.02); filter: blur(2px); }';
+    if(animated)css+='\n'+opened+q+'effect-stage '+sel+' { transition: transform '+duration+'s ease '+delay.toFixed(3)+'s, opacity '+duration+'s ease '+delay.toFixed(3)+'s, filter '+duration+'s ease '+delay.toFixed(3)+'s; }';
+   }else{
+    css+='\n'+opened+q+'effect-stage '+sel+' { color: '+(i%2?'#b0275e':'#16778a')+'; opacity: 0; transform: translate('+(i%2?9:-9)+'px,'+(i%3-1)*3+'px) skewX('+(i%2?18:-18)+'deg); filter: blur(2px); }';
+    if(animated)css+='\n'+opened+q+'effect-stage '+sel+' { transition: color .12s linear '+delay.toFixed(3)+'s, transform .18s linear '+delay.toFixed(3)+'s, opacity '+duration+'s ease '+(delay+.2).toFixed(3)+'s, filter '+duration+'s ease '+(delay+.2).toFixed(3)+'s; }';
+   }
+  }
+  if(mode==='flame'){
+   after='<div class="'+p+'effect-embers">'+Array.from({length:10},(_,i)=>'<span class="'+p+'effect-ember '+p+'effect-ember-'+i+'"></span>').join('')+'</div>';
+   css+='\n'+q+'effect-embers { position: absolute; left: 0; bottom: 12px; width: 100%; height: 0; }\n'+q+'effect-ember { position: absolute; bottom: 0; width: 6px; height: 6px; background: #d9742b; border-radius: 50%; opacity: 1; transform: translate(0,0) scale(0); }\n'+opened+q+'effect-stage '+q+'effect-ember { opacity: 0; transform: translate(8px,-65px) scale(1); }';
+   for(let i=0;i<10;i++){css+='\n'+q+'effect-ember-'+i+' { left: '+(5+i*10)+'%; }'+(animated?'\n'+opened+q+'effect-stage '+q+'effect-ember-'+i+' { transition: transform '+duration+'s ease '+(i*.07).toFixed(2)+'s, opacity '+duration+'s ease '+(i*.07).toFixed(2)+'s; }':'');}
+  }
+  // End state hides invisible text from hit-testing and keyboard selection with the skin on.
+  css+='\n'+opened+q+'effect-stage > '+q+'effect-body { visibility: hidden; }';
+  if(animated)css+='\n'+opened+q+'effect-stage > '+q+'effect-body { transition: visibility 0s linear '+(finish+.3).toFixed(3)+'s; }\n'+opened+q+'effect-end { transition: opacity .35s ease '+(finish+.3).toFixed(3)+'s, visibility 0s linear '+(finish+.3).toFixed(3)+'s; }';
+ }
+ const ending=mode==='page'?'':(v.effectEnd||READING_ENDINGS[mode]);
+ return{css,html:'<div class="'+p+'reading-block '+p+'reading-'+mode+'"><details class="'+p+'read-control"><summary>'+esc(v.effectPrompt||READING_PROMPTS[mode])+'</summary></details><div class="'+p+'effect-stage"><div class="'+p+'effect-body">'+html+'</div>'+after+'</div>'+(ending?'<p class="'+p+'effect-end">'+esc(ending)+'</p>':'')+'</div>'};
+}
+
+function composeReading(code,key,v,p){
+ const mode=v.readingEffect||'none';let css=code.css,html=code.html;
+ if(v.withOrnament)css+=`\n.${p}ornament-block::before { content: ${cssString(v.ornamentBefore)}; }\n.${p}ornament-block::after { content: ${cssString(v.ornamentAfter)}; }`;
+ if(v.withOrnament)html='<div class="'+p+'ornament-block">'+html+'</div>';
+ if(mode==='none')return{css,html};
+ if(!READING_CHOICES[key]?.includes(mode))throw Error('此外观不支持所选阅读方式，请重新选择。');
+ if(CLICK_APPROXIMATIONS.includes(mode))return composeClickApproximation({css,html},key,v,p);
+ const q='.'+p,pace=v.effectPace||'soft',duration=pace==='full'?1.2:.6,animated=pace!=='none';let extra='',after='',prompt=v.effectPrompt||READING_PROMPTS[mode]||'继续阅读';
+ extra+=`${q}reading-block { margin: 12px 0; }\n${q}read-control { padding: 0; border: 0; margin: 0 0 12px; }\n${q}read-control > summary { cursor: pointer; padding: 9px 0; }\n${q}effect-body { word-wrap: break-word; }\n${q}read-control .${p}read-open { display: none; }\n${q}read-control[open] .${p}read-open { display: inline; }\n${q}read-control[open] .${p}read-closed { display: none; }`;
+ if(mode==='fold')extra+=`\n${q}effect-body { height: 0; overflow: hidden; opacity: 0; }\n${q}read-control[open] ~ ${q}effect-body { height: auto; opacity: 1; }`+(animated?`\n${q}effect-body { transition: opacity ${duration}s ease; }`:'');
+ if(mode==='ink')extra+=`\n${q}effect-body { filter: blur(4px); opacity: .35; }\n${q}read-control[open] ~ ${q}effect-body { filter: blur(0); opacity: 1; }`+(animated?`\n${q}effect-body { transition: filter ${duration}s ease, opacity ${duration}s ease; }`:'');
+ if(mode==='lines'&&v.revealUnit!=='character'){
+  let n=0;const re=['chat'].includes(key)?/<div\s+class="[^"]*\b[^" ]*message\b[^"]*"[^>]*>/g:/<p(?:\s[^>]*)?>/g;
+  html=html.replace(re,tag=>{const cls=p+'effect-line '+p+'effect-line-'+n++;return /class="/.test(tag)?tag.replace('class="','class="'+cls+' '):tag.replace(/>$/,' class="'+cls+'">');});readingLimit(n,100,'逐行内容数量');
+  extra+=`\n${q}effect-line { opacity: 0; }\n${q}read-control[open] ~ ${q}effect-body ${q}effect-line { opacity: 1; }`;
+  if(animated)for(let i=0;i<n;i++)extra+=`\n${q}effect-line-${i} { transition: opacity .45s ease ${(i*(pace==='full'?.4:.16)).toFixed(3)}s; }`;
+ }
+ if(mode==='lines'){extra+='\n'+q+'effect-body { height: 0; overflow: hidden; }\n'+q+'read-control[open] ~ '+q+'effect-body { height: auto; }';}
+ if(mode==='lines'&&v.revealUnit==='character'){
+  const split=narrativeTextUnits(html,p);readingLimit(split.count,300,'含角色、标题和署名的逐字内容字数');html=split.html;extra+='\n'+q+'effect-char { opacity: 0; }\n'+q+'read-control[open] ~ '+q+'effect-body '+q+'effect-char { opacity: 1; }';
+  if(animated)for(const i of split.units)extra+='\n'+q+'effect-char-'+i+' { transition: opacity .18s ease '+(i*(pace==='full'?.05:.025)).toFixed(3)+'s; }';
+ }
+ if(mode==='burn'){
+  const split=narrativeTextUnits(html,p);readingLimit(split.count,300,'含称呼、标题和署名的短笺字数');html=split.html;const step=pace==='full'?.06:.025;
+  extra+=`\n${q}reading-block { display: flex; flex-direction: column; }\n${q}read-control { order: 2; }\n${q}effect-body { order: 1; }\n${q}read-control[open] > summary { display: none; }\n${q}effect-char { opacity: 1; }\n${q}read-control[open] ~ ${q}effect-body ${q}effect-char { color: #9c4b20; opacity: 0; filter: blur(3px); }\n${q}effect-end { opacity: 0; order: 3; }\n${q}read-control[open] ~ ${q}effect-end { opacity: 1; }`;
+  if(animated){for(const i of split.units)extra+=`\n${q}effect-char-${i} { transition: color .25s ease ${(i*step).toFixed(3)}s, opacity .6s ease ${(i*step+.25).toFixed(3)}s, filter .6s ease ${(i*step+.25).toFixed(3)}s; }`;extra+=`\n${q}effect-end { transition: opacity .5s ease ${(Math.max(0,split.count-1)*step+.85).toFixed(3)}s; }`;}
+  after='<p class="'+p+'effect-end">'+esc(v.effectEnd)+'</p>';
+ }
+ return{css:css+'\n'+extra,html:'<div class="'+p+'reading-block"><details class="'+p+'read-control"><summary><span class="'+p+'read-closed">'+esc(prompt)+'</span><span class="'+p+'read-open">收起阅读内容</span></summary></details><div class="'+p+'effect-body">'+html+'</div>'+after+'</div>'};
+}
+
+let appearanceUndo=null,recordUndo=null;
+function appearanceFingerprint(s){const {tab,hideSkin,hasWork,familyPresets,...content}=s;return JSON.stringify(content);}
+function renderCarrierGallery(){
+ const gallery=$('template-gallery');gallery.replaceChildren();
+ const visuals={conversation:'<span class="mini bubble-left">演示文字</span><span class="mini bubble-right">演示文字</span>',paper:'<span class="mini paper-mini">演示文字<br>演示文字</span>',social:'<span class="sample-notice"><b>●</b><span>演示文字<br>演示文字</span></span>',archive:'<span class="sample-paper">演示文字<b>▤</b><i>演示文字</i></span>',prose:'<span class="mini text-line">演示文字　演示文字</span><span class="mini text-line">演示文字　演示文字</span>',props:'<span class="sample-player"><span>演示文字</span><b>▶</b><i></i></span>'};
+ for(const c of CARRIERS){const card=button('',()=>{const key=state.familyPresets?.[c.key]||c.presets[0][0];selectAppearance(key);},'template-card');card.setAttribute('aria-label','选择'+c.name);const thumb=document.createElement('span');thumb.className='thumb';thumb.setAttribute('aria-hidden','true');thumb.innerHTML=visuals[c.key];const copy=document.createElement('span');copy.className='card-copy';const name=document.createElement('strong');name.textContent=c.name;const desc=document.createElement('small');desc.textContent=c.description;copy.append(name,desc);card.append(thumb,copy);gallery.append(card);}
+}
+function mergeAppearanceValues(fromKey,toKey,from,to){
+ const result={...to};const same=carrierFor(fromKey).key===carrierFor(toKey).key;
+ const both=key=>templates[key].fields.some(f=>f.key==='body');
+ if(same&&both(fromKey)&&both(toKey))result.body=from.body;
+ if(fromKey==='system'&&toKey==='popup'){result.items=writePopupItems([{sender:'',title:from.title,time:'',unread:'',summary:'',body:from.body+(from.footer?'\n\n'+from.footer:'')}]);result.style='dialog';result.noticeMode='static';result.accent=from.accent;result.text=from.text;result.background=from.background;}
+ if(same&&carrierFor(fromKey).key==='paper'){
+  if(fromKey==='letter'&&toKey==='sealed'){result.recipient=from.greeting;result.sender=from.signature;result.text=from.ink;result.background=from.background;result.width=from.width;}
+  if(fromKey==='sealed'&&toKey==='letter'){result.greeting=from.recipient;result.signature=from.sender;result.ink=from.text;result.background=from.background;result.width=from.width;}
+ }
+ return result;
+}
+function selectAppearance(key){
+ if(!Object.hasOwn(templates,key))return;const hadWork=state.hasWork,before=JSON.stringify(state),previous=state.template,same=state.mode==='template'&&carrierFor(previous).key===carrierFor(key).key;
+ const text=state.hasWork&&state.mode==='template'?primaryText(previous):'';
+ if(['chat','dialogue'].includes(key)&&!state.sharedKey)state.sharedKey=['chat','dialogue'].includes(previous)&&state.hasWork?previous:key;
+ if(state.hasWork&&previous!==key&&same)state.values[key]=mergeAppearanceValues(previous,key,valuesFor(previous),valuesFor(key));
+ state.mode='template';state.template=key;state.tab='content';messagePage=0;
+ state.familyPresets=state.familyPresets||{};const c=carrierFor(key);if(c.presets.some(p=>p[0]===key))state.familyPresets[c.key]=key;
+ if(previous!==key)importUndo=null;carryUndo=null;carryOffer=!same&&previous!==key&&hasPersonalText(text)&&templates[key].fields.some(f=>f.key==='body')?{text,from:metadata[previous][0],to:key}:null;
+ state.hasWork=true;if(hadWork&&previous!==key)appearanceUndo={before,after:JSON.stringify(state)};
+ openEditor();if(appearanceUndo&&previous!==key){appearanceUndo.after=JSON.stringify(state);renderAppearanceControls();}
+}
+function renderAppearanceControls(){
+ const bar=$('appearance-bar');bar.replaceChildren();bar.hidden=state.mode!=='template';if(bar.hidden)return;
+ const c=carrierFor(state.template);$('editor-title').textContent=c.name;
+ const label=document.createElement('label');label.className='appearance-label';const span=document.createElement('span');span.textContent='外观 / 内容结构';const select=document.createElement('select');select.id='appearance-select';for(const [key,name] of c.presets){const opt=document.createElement('option');opt.value=key;opt.textContent=name;select.append(opt);}
+ if(!c.presets.some(p=>p[0]===state.template)){const opt=document.createElement('option');opt.value=state.template;opt.textContent='已载入：'+metadata[state.template][0];select.append(opt);}
+ select.value=state.template;select.addEventListener('change',()=>selectAppearance(select.value));label.append(span,select);bar.append(label);
+ const note=document.createElement('p');note.className='muted';note.textContent=c.key==='conversation'?'两种外观共用角色和消息，切换后可以继续编辑。':c.key==='paper'?'切换外观会带入当前正文；不同外观的专用字段仍保留。':'不同内容结构各自保存；可带入正文时会显示提示。';bar.append(note);
+ if(appearanceUndo)bar.append(button('撤销外观切换',()=>{if(appearanceFingerprint(state)!==appearanceFingerprint(JSON.parse(appearanceUndo.after))&&!window.confirm('切换后又有编辑。撤销将恢复到切换前，是否继续？'))return;state=cleanState(JSON.parse(appearanceUndo.before));appearanceUndo=null;openEditor();},'quiet'));
+}
+function renderOptionalModules(){
+ for(const m of OPTIONAL_MODULES[state.template]||[]){
+  const nodes=[];for(const key of (m.playlist?[]:m.keys)){const node=$('param-'+key)?.closest('label');if(node)nodes.push(node);}
+  if(m.playlist)nodes.push(...$('content-fields').querySelectorAll('.interaction-editor,.interaction-raw'));
+  const box=document.createElement('section');box.className='optional-module';const label=document.createElement('label');label.className='check';const check=document.createElement('input');check.type='checkbox';check.id='module-'+m.flag;check.checked=valuesFor(state.template)[m.flag];label.append(check,document.createTextNode(m.label));const body=document.createElement('div');body.hidden=!check.checked;body.append(...nodes);box.append(label,body);
+  const help=document.createElement('small');help.textContent='关闭时保留填写内容，但不写入导出正文。';box.append(help);check.addEventListener('change',()=>{state.values[state.template]={...valuesFor(state.template),[m.flag]:check.checked};body.hidden=!check.checked;refresh();});$('content-fields').append(box);
+ }
+}
+function renderExtraRecords(){
+ const key=state.template;if(!['evidence','route'].includes(key))return;const field=key==='evidence'?'slipsJSON':'stopsJSON',unit=key==='evidence'?'夹页':'地点',section=structuredSection(unit+'列表');let rows;
+ try{rows=readExtras(valuesFor(key)[field],unit);}catch(e){const p=document.createElement('p');p.className='inline-error';p.textContent=e.message;section.append(p);return;}
+ const commit=()=>{state.values[key]={...valuesFor(key),[field]:JSON.stringify(rows)};refresh();};
+ rows.forEach((r,i)=>{const box=document.createElement('div');box.className='message-row';const head=document.createElement('div');head.className='message-top';head.textContent=unit+' '+(i+1);head.append(button('删除'+unit,()=>{recordUndo={key,field,row:{...rows[i]},index:i};rows.splice(i,1);commit();renderFields();}));box.append(head,interactionField(unit+' '+(i+1)+' · 标题',r.title,x=>{r.title=x;commit();}),interactionField(unit+' '+(i+1)+' · 正文',r.body,x=>{r.body=x;commit();},'textarea'));box.querySelectorAll('input,textarea').forEach(el=>el.placeholder='演示文字');section.append(box);});
+ const add=button('+ 添加'+unit,()=>{rows.push({title:'',body:''});commit();renderFields();},'add');add.disabled=rows.length>=20;section.append(add);if(recordUndo?.key===key) {const undo=button('撤销删除'+unit,()=>{rows.splice(Math.min(recordUndo.index,rows.length),0,recordUndo.row);recordUndo=null;commit();renderFields();},'quiet');undo.disabled=rows.length>=20;section.append(undo);}
+}
+function readingControlField(key,label,type,options){const f=templates[state.template].fields.find(f=>f.key===key);if(!f)return null;return fieldNode({...f,label:label||f.label,type:type||f.type,...(options?{options}:{}),uiHidden:false});}
+function renderReadingControls(){
+ const key=state.template,v=valuesFor(key);
+ if(READING_CHOICES[key]){
+  const panel=document.createElement('details');panel.className='reading-options';panel.open=['letter','memo','typography'].includes(key)||v.readingEffect!=='none';const summary=document.createElement('summary');summary.textContent='阅读方式 · '+READING_LABELS[v.readingEffect];panel.append(summary,readingControlField('readingEffect'));
+  if(v.readingEffect!=='none'){panel.append(readingControlField('effectPrompt'));if(v.readingEffect==='lines')panel.append(readingControlField('revealUnit'));if(['burn','flame','wipe','glitch'].includes(v.readingEffect))panel.append(readingControlField('effectEnd'));if(v.readingEffect==='page')panel.append(readingControlField('nextPage'));panel.append(readingControlField('effectPace'));const hint=document.createElement('p');hint.className='muted';hint.textContent=CLICK_APPROXIMATIONS.includes(v.readingEffect)?READING_HINTS[v.readingEffect]+' '+(v.readingEffect==='page'?'可阅读下一页全文，长度不受固定高度限制。':'短文本最多 300 字（含称呼、标题和署名）。')+' 一次触发，刷新或关闭皮肤可重读。':v.readingEffect==='burn'?'短笺最多 300 字（含称呼和署名）。效果为视觉呈现，刷新或关闭皮肤后仍可重读。':'只点击独立提示语切换状态，正文可以正常点选。高度直接排版，透明度与字迹变化负责过渡。';panel.append(hint);}
+  $('content-fields').append(panel);
+ }
+ if(key==='popup')$('content-fields').append(readingControlField('noticeMode'));
+ if(carrierFor(key).key==='prose'){
+  const more=document.createElement('details');more.className='reading-options';const summary=document.createElement('summary');summary.textContent='其他阅读方式';more.append(summary);for(const [target,label] of [['secret','分隔线里的短话'],['hover','悬停补充（触屏无效）'],['effects','悬停变形（触屏无效）']])more.append(button(label,()=>selectAppearance(target),'quiet'));$('content-fields').append(more);
+ }
+ if(templates[key].fields.some(f=>f.key==='withOrnament')){
+  const panel=document.createElement('details');panel.className='reading-options';panel.open=v.withOrnament;const summary=document.createElement('summary');summary.textContent='正文前后装饰';panel.append(summary,readingControlField('withOrnament'));if(v.withOrnament)panel.append(readingControlField('ornamentBefore'),readingControlField('ornamentAfter'));$('style-fields').append(panel);
+ }
+}
+function degradationFor(){if(state.template==='popup'&&valuesFor('popup').noticeMode==='static')return '发送者、标题、摘要和详情直接显示；关闭皮肤后仍按顺序可读。按钮仅作装饰。';return templates[state.template].degradation;}
+function renderConsolidatedFields(){
+ $('degradation').textContent=degradationFor();
+ renderFieldsBase();renderInteractionFields();renderStructuredFields();renderExtraRecords();
+ const styles=$('style-fields'),palette=styles.querySelector('.palette');if(palette){const fine=document.createElement('details');fine.className='fine-style';const title=document.createElement('summary');title.textContent='微调颜色、字体与布局';fine.append(title);Array.from(styles.children).filter(x=>x!==palette).forEach(x=>fine.append(x));styles.append(fine);}
+ renderCapability();renderContentActions();renderOptionalModules();renderReadingControls();renderAppearanceControls();
+ if(carryOffer?.to===state.template){const box=document.createElement('div');box.className='carry-note';const p=document.createElement('p');p.textContent='可将“'+carryOffer.from+'”的正文带入这里，原内容仍保留。';box.append(p,button('带入并替换正文',()=>{const v=valuesFor(state.template);carryUndo={template:state.template,body:v.body};v.body=carryOffer.text;state.values[state.template]=v;carryOffer=null;renderFields();refresh();},'quiet'),button('保持当前内容',()=>{carryOffer=null;renderFields();},'quiet'));$('content-fields').prepend(box);}
+ else if(carryUndo?.template===state.template)$('content-fields').prepend(button('撤销正文带入',()=>{state.values[state.template]={...valuesFor(state.template),body:carryUndo.body};carryUndo=null;renderFields();refresh();},'quiet'));
+}
+function setMobileSurface(surface){$('editor-screen').dataset.surface=surface;for(const b of document.querySelectorAll('[data-mobile-surface]'))b.setAttribute('aria-pressed',String(b.dataset.mobileSurface===surface));}
+function initializeConsolidationUI(){
+ for(const b of document.querySelectorAll('[data-mobile-surface]'))b.addEventListener('click',()=>setMobileSurface(b.dataset.mobileSurface));
+ setMobileSurface('edit');
+ window.addEventListener('pagehide',persistNow);document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='hidden')persistNow();});
+}
+
 const STORE='ao3-workskin-studio-v2';
-function defaultState(){return{version:2,hasWork:false,mode:'template',template:'chat',tab:'content',prefix:'wsk-',values:{},hideSkin:false,free:{css:'.wsk-text {\n  color: #303840;\n  line-height: 1.8;\n}',html:'<p class="wsk-text">演示文字</p>'},chat:{roles:[{name:'演示文字'},{name:'演示文字'}],messages:[{role:0,body:'演示文字',time:'演示文字'},{role:1,body:'演示文字',time:'演示文字'}]},dialogue:{roles:[{name:'演示文字',color:'#922c35'},{name:'演示文字',color:'#3f6c72'}],messages:[{role:0,body:'演示文字',time:''},{role:1,body:'演示文字',time:''}]}};}
+function defaultState(){return{version:2,familyPresets:{},hasWork:false,mode:'template',template:'chat',tab:'content',prefix:'wsk-',values:{},hideSkin:false,free:{css:'.wsk-text {\n  color: #303840;\n  line-height: 1.8;\n}',html:'<p class="wsk-text">演示文字</p>'},chat:{roles:[{name:'演示文字'},{name:'演示文字'}],messages:[{role:0,body:'演示文字',time:'演示文字'},{role:1,body:'演示文字',time:'演示文字'}]},dialogue:{roles:[{name:'演示文字',color:'#922c35'},{name:'演示文字',color:'#3f6c72'}],messages:[{role:0,body:'演示文字',time:''},{role:1,body:'演示文字',time:''}]}};}
 function normalizePrefix(s){if(typeof s!=='string')return null;s=s.trim();return /^[a-z][a-z0-9-]{0,39}$/i.test(s)?(s.endsWith('-')?s:s+'-'):null;}
 function cleanConversation(raw,fallback){if(raw?.roles?.length>LIMITS.roles||raw?.messages?.length>LIMITS.messages)throw Error('草稿超过 100 个角色或 1000 条消息，未导入。');if(raw?.messages?.some(m=>String(m?.body??'').length>LIMITS.body))throw Error('草稿消息过长，未导入。');if(!raw||typeof raw!=='object')return fallback;const roles=Array.isArray(raw.roles)&&raw.roles.length?raw.roles.map(r=>({name:String(r?.name??'').slice(0,400),color:/^#[0-9a-f]{6}$/i.test(r?.color)?r.color:'#922c35'})):fallback.roles;const messages=Array.isArray(raw.messages)&&raw.messages.length?raw.messages.map(m=>({role:m?.role===null?null:Math.max(0,Math.min(roles.length-1,Math.floor(Number(m?.role)||0))),body:String(m?.body??'').slice(0,16000),time:String(m?.time??'').slice(0,100)})):fallback.messages;return{roles,messages};}
-function cleanState(raw){if(!raw||raw.version!==2)throw Error('这不是本工具的草稿文件。');const base=defaultState();if(['chat','dialogue'].includes(raw.sharedKey))base.sharedKey=raw.sharedKey;base.hasWork=raw.hasWork===true;base.mode=raw.mode==='free'?'free':'template';base.template=Object.hasOwn(templates,raw.template)?raw.template:'chat';base.tab=raw.tab==='style'?'style':'content';base.prefix=normalizePrefix(raw.prefix)||'wsk-';base.hideSkin=raw.hideSkin===true;const values=raw.values&&typeof raw.values==='object'?raw.values:{};for(const key of Object.keys(templates)){if(values[key]&&typeof values[key]==='object'){const entry={};for(const field of templates[key].fields)if(Object.hasOwn(values[key],field.key))entry[field.key]=values[key][field.key];base.values[key]=entry;}}if(raw.free&&typeof raw.free==='object'){if(String(raw.free.css??'').length>2000000||String(raw.free.html??'').length>2000000)throw Error('自由编写代码过长，未导入。');base.free={css:String(raw.free.css??''),html:String(raw.free.html??'')};}base.chat=cleanConversation(raw.chat,base.chat);base.dialogue=cleanConversation(raw.dialogue,base.dialogue);return base;}
+function cleanState(raw){if(!raw||raw.version!==2)throw Error('这不是本工具的草稿文件。');const base=defaultState();if(['chat','dialogue'].includes(raw.sharedKey))base.sharedKey=raw.sharedKey;base.hasWork=raw.hasWork===true;base.mode=raw.mode==='free'?'free':'template';base.template=Object.hasOwn(templates,raw.template)?raw.template:'chat';base.tab=raw.tab==='style'?'style':'content';base.prefix=normalizePrefix(raw.prefix)||'wsk-';base.hideSkin=raw.hideSkin===true;const values=raw.values&&typeof raw.values==='object'?raw.values:{};for(const key of Object.keys(templates)){if(values[key]&&typeof values[key]==='object'){const entry={};for(const field of templates[key].fields)if(Object.hasOwn(values[key],field.key))entry[field.key]=values[key][field.key];base.values[key]=entry;}}if(raw.free&&typeof raw.free==='object'){if(String(raw.free.css??'').length>2000000||String(raw.free.html??'').length>2000000)throw Error('自由编写代码过长，未导入。');base.free={css:String(raw.free.css??''),html:String(raw.free.html??'')};}base.chat=cleanConversation(raw.chat,base.chat);base.dialogue=cleanConversation(raw.dialogue,base.dialogue);return migrateConsolidated(base,raw);}
 let state=defaultState(),screen='start',autosave=true,storageOK=true,errors=[],lastGood={css:'',html:'<p>演示文字</p>'},timer,history={};
 try{const raw=localStorage.getItem(STORE);if(raw)state=cleanState(JSON.parse(raw));}catch(e){storageOK=false;}
 function valuesFor(key){const saved=state.values[key]||{},v={};for(const f of templates[key].fields){let x=saved[f.key]??f.value;if(f.type==='number')x=Math.round(Math.min(f.max,Math.max(f.min,Number.isFinite(Number(x))?Number(x):Number(f.value))));else if(f.type==='checkbox')x=x===true;else if(f.type==='color')x=/^#[0-9a-f]{6}$/i.test(String(x))?x:f.value;else if(f.type==='select')x=f.options.some(a=>a[0]===String(x))?String(x):f.value;else x=String(x);v[f.key]=x;}return v;}
-function save(){if(!autosave)return;try{localStorage.setItem(STORE,JSON.stringify(state));storageOK=true;$('save-status').textContent='已保存在此浏览器';}catch(e){storageOK=false;$('save-status').textContent='请用草稿文件保存';}}
+let saveTimer;
+function persistNow(){clearTimeout(saveTimer);if(!autosave)return;try{localStorage.setItem(STORE,JSON.stringify(state));storageOK=true;$('save-status').textContent='已保存在此浏览器';}catch(e){storageOK=false;$('save-status').textContent='请用草稿文件保存';}}
+function save(){if(!autosave)return;clearTimeout(saveTimer);$('save-status').textContent='正在保存…';saveTimer=setTimeout(persistNow,300);}
 function toast(s){$('toast').textContent=s;$('toast').hidden=false;clearTimeout(timer);timer=setTimeout(()=>$('toast').hidden=true,3200);}
 function generate(){preflightContent();if(state.mode==='free')return{...state.free};const t=templates[state.template],v=valuesFor(state.template),p=state.prefix;let d=!['chat','dialogue'].includes(state.template)&&t.derive?t.derive(v,p):{};
  if(state.template==='chat'){const data=conversation('chat');d={messagesHTML:data.messages.map((m,i)=>{if(m.role===null)return `<p class="${p}narration">${block(m.body)}</p>`;const role=data.roles[m.role]||data.roles[0],right=v.align==='right'||(v.align==='alternating'&&m.role%2===1);return `<div class="${p}message${right?' '+p+'right':''}">\n${v.avatar?`<span class="${p}avatar">${esc(Array.from(role.name)[0]||'演')}</span>\n`:''}<div class="${p}bubble"><strong class="${p}speaker">${esc(role.name)}:</strong>${v.time&&m.time?` <small class="${p}time">${esc(m.time)}</small>`:''}<p>${block(m.body)}</p></div>\n</div>`;}).join('\n')};}
  if(state.template==='dialogue'){const data=conversation('dialogue');d={roleCSS:data.roles.map((r,i)=>`.${p}role-${i+1} { color: ${r.color}; }`).join('\n'),linesHTML:data.messages.map(m=>m.role===null?`<p class="${p}narration">${block(m.body)}</p>`:`<p class="${p}role-${m.role+1}"><strong>${esc((data.roles[m.role]||data.roles[0]).name)}:</strong> ${block(m.body)}</p>`).join('\n')};}
- const cv={...v,p,...d},hv={...Object.fromEntries(Object.entries(v).map(([k,x])=>[k,esc(x)])),p,...d};const fill=(s,vars)=>s.replace(/\{\{(\w+)\}\}/g,(_,k)=>vars[k]??'');return{css:fill(t.css,cv)+(['chat','dialogue'].includes(state.template)?`\n.${p}narration { margin: 16px 0; line-height: 1.8; }` : ''),html:fill(t.html,hv)};}
+ const cv={...v,p,...d},hv={...Object.fromEntries(Object.entries(v).map(([k,x])=>[k,esc(x)])),p,...d};const fill=(s,vars)=>s.replace(/\{\{(\w+)\}\}/g,(_,k)=>vars[k]??'');return composeReading(polishOutput({css:fill(t.css,cv)+(['chat','dialogue'].includes(state.template)?`\n.${p}narration { margin: 16px 0; line-height: 1.8; }` : ''),html:fill(t.html,hv)},state.template,v,p),state.template,v,p);}
 function showPreview(){
+ $('replay-reading').hidden=state.mode!=='template'||(!NARRATIVE_KEYS.includes(state.template)&&!(valuesFor(state.template).readingEffect&&valuesFor(state.template).readingEffect!=='none'))||state.hideSkin;
  const frame=$('preview'),csp="default-src 'none'; style-src 'unsafe-inline'; img-src 'none'; font-src 'none'; connect-src 'none'; frame-src 'none'; form-action 'none'; base-uri 'none'";
  try{
   const doc=frame.contentDocument;if(!doc)throw Error('无法访问预览文档');
@@ -737,15 +1265,16 @@ function showPreview(){
   const css=state.hideSkin?'':lastGood.css;if(style.textContent!==css)style.textContent=css;
   if(frame._renderedBody!==body||frame._renderedHTML!==lastGood.html){body.innerHTML=lastGood.html;frame._renderedBody=body;frame._renderedHTML=lastGood.html;}
   $('preview-label').textContent=state.hideSkin?'已更新 · 皮肤已关闭':'已更新 · 实时预览';
-  $('preview-note').textContent=errors.length?'有内容需要检查；预览保留最近有效的内容。':state.hideSkin?'这里没有加载 CSS，请检查文字是否仍然能读懂。':'文字和颜色会立即更新。发布前请在 AO3 Preview 再检查一次。';
+  $('preview-note').textContent=errors.length?'有内容需要检查；预览保留最近有效的内容。':state.hideSkin?'这里没有加载 CSS，请检查文字是否仍然能读懂。':state.mode==='template'&&CLICK_APPROXIMATIONS.includes(valuesFor(state.template).readingEffect)?'点击提示语后只进行一次。“重新试读”仅用于这里的预览。':(state.mode==='template'&&(NARRATIVE_KEYS.includes(state.template)||(valuesFor(state.template).readingEffect&&valuesFor(state.template).readingEffect!=='none'))?'点击独立提示语试读。可点“重新试读”从头查看。':state.mode==='template'&&state.template==='popup'&&valuesFor('popup').noticeMode==='static'?'通知全文直接显示，无需点击。':state.mode==='template'&&MOTION_KEYS.includes(state.template)?'点击预览中的标题试读；正文按原生方式展开。':'文字和颜色会立即更新。发布前请在 AO3 Preview 再检查一次。');
  }catch(e){$('preview-label').textContent='预览未加载';$('preview-note').textContent='请重新打开本文件，或用 Chrome / Edge 打开。右侧代码仍可查看和复制。';}
 }
 function refresh(){if(!state.hasWork)return;let code;try{code=generate();}catch(e){showGenerationError(e);return;}$('css-output').value=code.css;$('html-output').value=code.html;const result=validate(code.css,code.html);errors=[...result.cssErrors,...result.htmlErrors];const bad=errors.length>0;
- $('status').textContent=bad?'需要检查':'可复制';$('status').className='status'+(bad?' error':'');$('copy-intro').textContent='先复制样式到 AO3 皮肤，再复制正文到作品。只改文字时可跳过第 ① 步。';$('warnings').hidden=!bad;$('warnings').replaceChildren();if(bad){const title=document.createElement('strong');title.textContent='请先修正这些内容';const ul=document.createElement('ul');errors.forEach(s=>{const li=document.createElement('li');li.textContent=s;ul.append(li);});$('warnings').append(title,ul);}
+ const effect=state.mode==='template'?valuesFor(state.template).readingEffect:'none';const cssFollowsText=state.mode==='template'&&(['burn','lines','flame','wipe','glitch'].includes(effect)||['afterreading','transcript','dialogue'].includes(state.template));$('export-context').textContent=(screen==='start'?'上次输出：':'当前输出：')+(state.mode==='free'?'自由编写':metadata[state.template][0]+(effect&&effect!=='none'?' · '+READING_LABELS[effect]:''));
+ $('status').textContent=bad?'需要检查':'本地检查通过';$('status').className='status'+(bad?' error':'');$('copy-intro').textContent=cssFollowsText?'文字或角色变化会改变样式，请重新复制①和②。':'先复制样式到 AO3 皮肤，再复制正文到作品。更换外观或阅读方式后，两段代码都要更新。';document.querySelector('.export-card p').textContent=cssFollowsText?'文字或角色变化后，需同步更新皮肤样式。':'创建或修改样式后粘贴；仅修改普通正文时可跳过。';$('warnings').hidden=!bad;$('warnings').replaceChildren();if(bad){const title=document.createElement('strong');title.textContent='请先修正这些内容';const ul=document.createElement('ul');errors.forEach(s=>{const li=document.createElement('li');li.textContent=s;ul.append(li);});$('warnings').append(title,ul);}
  $('css-editor').setAttribute('aria-invalid',String(state.mode==='free'&&result.cssErrors.length>0));$('html-editor').setAttribute('aria-invalid',String(state.mode==='free'&&result.htmlErrors.length>0));document.querySelectorAll('[data-copy],[data-download]').forEach(x=>x.disabled=bad);if(!result.cssErrors.length)lastGood.css=result.prefixed;if(!result.htmlErrors.length)lastGood.html=code.html;showPreview();adviseContrast();save();}
-function isStyle(f){if(state.template==='popup'&&f.key==='style')return false;if(state.template==='player'&&f.key==='currentLine')return false;if(state.template==='social'&&['likes','shares'].includes(f.key))return false;return ['color','number','select'].includes(f.type)||['time','avatar','open'].includes(f.key);}
+function isStyle(f){if(state.template==='transcript'&&f.key==='revealMode')return false;if(state.template==='popup'&&f.key==='style')return false;if(state.template==='player'&&f.key==='currentLine')return false;if(state.template==='social'&&['likes','shares'].includes(f.key))return false;return ['color','number','select'].includes(f.type)||['time','avatar','open'].includes(f.key);}
 function fieldNode(f){const label=document.createElement('label');label.className=f.type==='checkbox'?'check':'field';const title=document.createElement('span');title.textContent=f.label;let input;if(f.type==='textarea'){input=document.createElement('textarea');input.rows=4;}else if(f.type==='select'){input=document.createElement('select');f.options.forEach(([val,text])=>{const opt=document.createElement('option');opt.value=val;opt.textContent=text;input.append(opt);});}else{input=document.createElement('input');input.type=f.type;if(f.type==='number'){input.min=f.min;input.max=f.max;input.step=1;}if(f.type==='text')input.maxLength=400;}
- input.id='param-'+f.key;const v=valuesFor(state.template);if(f.type==='checkbox'){input.checked=v[f.key];label.append(input,title);}else{input.value=v[f.key];label.append(title);if(f.type==='color'){const row=document.createElement('div');row.className='color-row';const code=document.createElement('span');code.className='color-value';code.textContent=v[f.key];row.append(input,code);label.append(row);input.addEventListener('input',()=>code.textContent=input.value);}else label.append(input);}if(f.help){const help=document.createElement('small');help.textContent=f.help;label.append(help);}input.addEventListener('input',()=>{const val=valuesFor(state.template);val[f.key]=f.type==='checkbox'?input.checked:f.type==='number'?Number(input.value):input.value;state.values[state.template]=val;if((state.template==='social'&&f.key==='quote')||(state.template==='popup'&&f.key==='style'))renderFields();refresh();});return label;}
+ if(f.optionalModule&&['text','textarea'].includes(f.type))input.placeholder='演示文字';input.id='param-'+f.key;const v=valuesFor(state.template);if(f.type==='checkbox'){input.checked=v[f.key];label.append(input,title);}else{input.value=v[f.key];label.append(title);if(f.type==='color'){const row=document.createElement('div');row.className='color-row';const code=document.createElement('span');code.className='color-value';code.textContent=v[f.key];row.append(input,code);label.append(row);input.addEventListener('input',()=>code.textContent=input.value);}else label.append(input);}if(f.help){const help=document.createElement('small');help.textContent=f.help;label.append(help);}input.addEventListener('input',()=>{const val=valuesFor(state.template);val[f.key]=f.type==='checkbox'?input.checked:f.type==='number'?Number(input.value):input.value;if(f.key==='readingEffect'){if(['','继续阅读',...Object.values(READING_PROMPTS)].includes(val.effectPrompt))val.effectPrompt=READING_PROMPTS[val.readingEffect]||'继续阅读';if(['',...Object.values(READING_ENDINGS)].includes(val.effectEnd))val.effectEnd=READING_ENDINGS[val.readingEffect]||'字迹已不可辨认';}state.values[state.template]=val;if((state.template==='social'&&f.key==='quote')||(state.template==='popup'&&f.key==='style')||['readingEffect','revealUnit','withOrnament','noticeMode'].includes(f.key))renderFields();refresh();});return label;}
 function button(label,fn,cls='icon-btn'){const b=document.createElement('button');b.type='button';b.className=cls;b.textContent=label;b.addEventListener('click',fn);return b;}
 function renderConversation(){
  const kind=state.template,data=conversation(kind),content=$('content-fields'),styles=$('style-fields');
@@ -798,17 +1327,17 @@ function renderConversation(){
  const addMessage=button('+ 添加'+(kind==='chat'?'消息':'台词'),()=>{data.messages.push({role:0,body:'演示文字',time:''});messagePage=Math.floor((data.messages.length-1)/PAGE_SIZE);renderFields();refresh();},'add');addMessage.disabled=data.messages.length>=LIMITS.messages;content.append(addMessage);
 }
 
-function renderFieldsBase(){$('content-fields').replaceChildren();$('style-fields').replaceChildren();if(['chat','dialogue'].includes(state.template))renderConversation();for(const f of templates[state.template].fields){if((state.template==='player'&&f.key==='playlist')||(state.template==='popup'&&f.key==='items'))continue;if(state.template==='popup'&&['okText','cancelText'].includes(f.key)&&valuesFor('popup').style!=='dialog')continue;if(['chat','dialogue'].includes(state.template)&&['names','messages','characters','lines'].includes(f.key))continue;if(state.template==='social'&&['quoteName','quoteBody'].includes(f.key)&&!valuesFor('social').quote)continue;$(isStyle(f)?'style-fields':'content-fields').append(fieldNode(f));}if(!$('style-fields').children.length){const p=document.createElement('p');p.className='empty-info';p.textContent='这个模板已配好基础样式。想做更细的修改，可以点“改为自由编写”。';$('style-fields').append(p);}renderPalettes();}
+function renderFieldsBase(){$('content-fields').replaceChildren();$('style-fields').replaceChildren();if(['chat','dialogue'].includes(state.template))renderConversation();for(const f of templates[state.template].fields){if((state.template==='popup'&&valuesFor('popup').noticeMode==='static'&&f.key==='open')||f.uiHidden||f.key==='motion'||(state.template==='chapters'&&f.key==='chapters')||(state.template==='cards'&&f.key==='cards')||(state.template==='clues'&&f.key==='stages'))continue;if((state.template==='player'&&f.key==='playlist')||(state.template==='popup'&&f.key==='items'))continue;if(state.template==='popup'&&['okText','cancelText'].includes(f.key)&&valuesFor('popup').style!=='dialog')continue;if(['chat','dialogue'].includes(state.template)&&['names','messages','characters','lines'].includes(f.key))continue;if(state.template==='social'&&['quoteName','quoteBody'].includes(f.key)&&!valuesFor('social').quote)continue;$(isStyle(f)?'style-fields':'content-fields').append(fieldNode(f));}if(!$('style-fields').children.length){const p=document.createElement('p');p.className='empty-info';p.textContent='这个模板已配好基础样式。想做更细的修改，可以点“改为自由编写”。';$('style-fields').append(p);}renderPalettes();}
 function setTab(which){state.tab=which;$('content-pane').hidden=which!=='content';$('style-pane').hidden=which!=='style';for(const name of ['content','style']){$(name+'-tab').setAttribute('aria-selected',String(which===name));$(name+'-tab').tabIndex=which===name?0:-1;}save();}
 function initHistory(){for(const [id,key] of [['html-editor','html'],['css-editor','css']]){history[id]={items:[{text:state.free[key],start:0,end:0}],index:0};$(id).value=state.free[key];}}
 // Adapted from CodeJar recordHistory / handleUndoRedo (MIT); textarea value and selection replace contenteditable HTML and Range.
 function record(id){const h=history[id],area=$(id),last=h.items[h.index];if(last?.text===area.value)return;h.items.splice(h.index+1);h.items.push({text:area.value,start:area.selectionStart,end:area.selectionEnd});if(h.items.length>150)h.items.shift();h.index=h.items.length-1;}
 function rememberSelection(id){const h=history[id],area=$(id);if(h?.items[h.index]?.text===area.value)Object.assign(h.items[h.index],{start:area.selectionStart,end:area.selectionEnd});}
 function historyStep(id,step){const h=history[id];if(!h)return;h.index=Math.max(0,Math.min(h.items.length-1,h.index+step));const entry=h.items[h.index],area=$(id);area.value=entry.text;area.focus();area.setSelectionRange(entry.start,entry.end);state.free[id==='html-editor'?'html':'css']=entry.text;refresh();}
-function renderEditor(){document.body.classList.toggle('free-writing',state.mode==='free');$('editor-title').textContent=state.mode==='free'?'自由编写':metadata[state.template][0];$('form-tabs').hidden=state.mode==='free';$('free-pane').hidden=state.mode!=='free';$('to-free').hidden=state.mode==='free';$('prefix').value=state.prefix;$('hide-skin').checked=state.hideSkin;
- if(state.mode==='template'){renderFields();setTab(state.tab);$('degradation').textContent=templates[state.template].degradation;}else{$('content-pane').hidden=true;$('style-pane').hidden=true;initHistory();$('degradation').textContent='只支持 AO3 接受的 HTML / CSS。预览禁用脚本和外部资源，不加载网络图片。';}refresh();}
-function openEditor(){screen='editor';state.hasWork=true;document.body.classList.add('editing');$('start-screen').hidden=true;$('editor-screen').hidden=false;renderEditor();window.scrollTo({top:0,behavior:'instant'});}
-function showStart(){screen='start';$('start-screen').hidden=false;$('editor-screen').hidden=true;document.body.classList.remove('editing');$('continue').hidden=!state.hasWork;window.scrollTo({top:0,behavior:'instant'});}
+function renderEditor(){document.body.classList.toggle('free-writing',state.mode==='free');$('editor-title').textContent=state.mode==='free'?'自由编写':metadata[state.template][0];$('form-tabs').hidden=state.mode==='free';$('free-pane').hidden=state.mode!=='free';$('to-free').hidden=state.mode==='free';$('appearance-bar').hidden=state.mode==='free';$('mobile-view-toggle').hidden=false;$('prefix').value=state.prefix;$('hide-skin').checked=state.hideSkin;
+ if(state.mode==='template'){renderFields();setTab(state.tab);$('degradation').textContent=degradationFor();}else{$('content-pane').hidden=true;$('style-pane').hidden=true;initHistory();$('degradation').textContent='只支持 AO3 接受的 HTML / CSS。预览禁用脚本和外部资源，不加载网络图片。';}refresh();}
+function openEditor(){screen='editor';state.hasWork=true;document.body.classList.add('editing');setMobileSurface('edit');$('start-screen').hidden=true;$('editor-screen').hidden=false;renderEditor();window.scrollTo({top:0,behavior:'instant'});}
+function showStart(){screen='start';$('start-screen').hidden=false;$('editor-screen').hidden=true;document.body.classList.remove('editing');$('continue').hidden=!state.hasWork;if(state.hasWork)$('export-context').textContent=$('export-context').textContent.replace('当前输出：','上次输出：');window.scrollTo({top:0,behavior:'instant'});}
 function renderGalleryBase(filter='all'){const gallery=$('template-gallery');gallery.replaceChildren();for(const [key,[name,desc,group]] of Object.entries(metadata)){if(filter!=='all'&&filter!==group)continue;const card=document.createElement('button');card.type='button';card.className='template-card';card.setAttribute('aria-label','使用'+name+'模板');const thumb=document.createElement('div');thumb.className='thumb';thumb.setAttribute('aria-hidden','true');const mini=(cls,text='演示文字')=>{const span=document.createElement('span');span.className='mini '+cls;span.textContent=text;thumb.append(span);};if(key==='chat'){mini('bubble-left');mini('bubble-right');}else if(key==='letter')mini('paper-mini','演示文字\u3000演示文字');else if(key==='dialogue'){mini('text-line red-text');mini('text-line');}else if(key==='typography'){mini('text-line','演示文字\u3000演示文字');mini('text-line','演示文字\u3000演示文字');}else if(key==='details'){mini('fold','▸ 演示文字');}else if(key==='hover'){mini('text-line');mini('text-line red-text');}else if(key==='social')mini('social-mini','演示文字\u3000演示文字');else if(key==='effects')mini('bubble-right');else if(key==='decoration')mini('text-line','演示文字\u3000演示文字');else if(key==='chapters')mini('fold','▸ 演示文字');else if(key==='footnote')mini('text-line','演示文字¹');else if(key==='cards')mini('fold','▸ 演示文字');else if(key==='moments')mini('social-mini','演示文字\u3000演示文字');else if(key==='system')mini('text-line red-text','演示文字');else if(key==='player')mini('fold','▶ 演示文字');else if(key==='popup')mini('fold','▸ 演示文字');else mini('paper-mini');const copy=document.createElement('span');copy.className='card-copy';const strong=document.createElement('strong');strong.textContent=name;const small=document.createElement('small');small.textContent=desc;copy.append(strong,small);card.append(thumb,copy);card.addEventListener('click',()=>chooseTemplate(key));gallery.append(card);}}
 async function copy(id){if(errors.length||!state.hasWork)return;const area=$(id),text=area.value;let ok=false;try{if(navigator.clipboard?.writeText){await navigator.clipboard.writeText(text);ok=true;}}catch(e){}if(!ok){const temp=document.createElement('textarea');temp.value=text;temp.style.cssText='position:fixed;left:-9999px;top:0';document.body.append(temp);temp.focus();temp.select();try{ok=document.execCommand('copy');}catch(e){}temp.remove();}if(ok)toast('已复制'+(id==='css-output'?' CSS':' HTML')+'。按右侧说明粘贴到 AO3。');else{area.closest('details').open=true;area.focus();area.select();toast('已全选。请按 Ctrl+C（Mac：⌘C）手动复制。');}}
 // Adapted from Anlanther/ao3-twitter-generator, TwitterCard.downloadHtmlAsFile (MIT).
@@ -824,49 +1353,26 @@ $('to-free').addEventListener('click',()=>{state.free=generate();state.mode='fre
 $('prefix').addEventListener('input',()=>{const p=normalizePrefix($('prefix').value);$('prefix').setCustomValidity(p?'':'请以字母开头，仅使用字母、数字、短横线。');$('prefix').setAttribute('aria-invalid',String(!p));$('prefix-help').textContent=p?'导出使用 '+p:'前缀无效，继续使用 '+state.prefix;if(p){state.prefix=p;refresh();}});$('prefix').addEventListener('blur',()=>{if(normalizePrefix($('prefix').value))$('prefix').value=state.prefix;});
 $('random').addEventListener('click',()=>{const a=new Uint32Array(1);try{crypto.getRandomValues(a);}catch(e){a[0]=Math.random()*0xffffffff;}state.prefix='wsk-'+a[0].toString(36)+'-';$('prefix').value=state.prefix;$('prefix').setCustomValidity('');$('prefix').setAttribute('aria-invalid','false');$('prefix-help').textContent='导出使用 '+state.prefix;refresh();});
 $('reset-style').addEventListener('click',()=>{const v=valuesFor(state.template);for(const f of templates[state.template].fields)if(isStyle(f))v[f.key]=f.value;state.values[state.template]=v;if(state.template==='dialogue')conversation('dialogue').roles.forEach((r,i)=>r.color=i===0?'#922c35':i===1?'#3f6c72':'#716359');renderFields();refresh();toast('已恢复默认样式，文字保留。');});
+$('replay-reading').addEventListener('click',()=>{delete $('preview')._renderedHTML;showPreview();});
 $('hide-skin').addEventListener('change',()=>{state.hideSkin=$('hide-skin').checked;showPreview();save();});$('viewport').addEventListener('click',()=>{const narrow=$('paper').classList.toggle('mobile');$('viewport').textContent=narrow?'切换宽屏':'切换窄屏';$('viewport').setAttribute('aria-pressed',String(narrow));});
 document.querySelectorAll('[data-copy]').forEach(b=>b.addEventListener('click',()=>copy(b.dataset.copy)));document.querySelectorAll('[data-download]').forEach(b=>b.addEventListener('click',()=>{if(errors.length)return;const css=b.dataset.download==='css-output';downloadText($(b.dataset.download).value,css?'ao3-work-skin.css':'ao3-work-text.html.txt');toast('已下载'+(css?' CSS 文件。':' HTML 文本文件。'));}));
 $('export-draft').addEventListener('click',()=>{downloadText(JSON.stringify(state,null,2),'ao3-workskin-draft.json','application/json;charset=utf-8');toast('草稿文件同时保存内容、样式和代码。');});$('import-draft').addEventListener('click',()=>$('draft-file').click());$('draft-file').addEventListener('change',async e=>{const file=e.target.files[0];if(!file)return;try{if(file.size>20000000)throw Error('草稿超过 20 MB，请选择较小的文件。');const next=cleanState(JSON.parse(await file.text()));state=next;importUndo=null;messagePage=0;state.hasWork=true;autosave=true;openEditor();toast('已导入草稿。');}catch(error){toast(error instanceof SyntaxError?'文件不是有效的 JSON 草稿。':error.message);}e.target.value='';});
 for(const [id,key] of [['html-editor','html'],['css-editor','css']])attachEditor(id,key);document.querySelectorAll('[data-undo]').forEach(b=>b.addEventListener('click',()=>historyStep(b.dataset.undo,-1)));document.querySelectorAll('[data-redo]').forEach(b=>b.addEventListener('click',()=>historyStep(b.dataset.redo,1)));
+document.querySelectorAll('[data-usage-open]').forEach(button=>button.addEventListener('click',()=>{const dialog=$('usage-dialog');dialog.showModal();dialog.scrollTop=0;}));
 $('research-open').addEventListener('click',()=>$('research-dialog').showModal());$('research-close').addEventListener('click',()=>$('research-dialog').close());$('clear-storage').addEventListener('click',()=>{try{localStorage.removeItem(STORE);autosave=false;$('save-status').textContent='本次不再自动保存';toast('已清除本地记忆；当前编辑内容保留。');}catch(e){toast('浏览器不允许访问本地记忆。');}});
 // UX refinement for the author's desktop version. Plain JS, no new dependencies.
 let carryOffer=null,carryUndo=null;
 const COMMON_TEMPLATES=['chat','dialogue','letter','social','moments','typography'];
 function conversationKey(){return state.sharedKey||(['chat','dialogue'].includes(state.template)?state.template:'chat');}
 function conversation(key){const data=state[state.sharedKey||key];data.roles.forEach((r,i)=>{if(!r.color)r.color=['#922c35','#3f6c72','#716359'][i%3];});return data;}
-function renderGallery(){
- renderGalleryBase();const gallery=$('template-gallery'),cards=Array.from(gallery.children),keys=Object.keys(metadata),byKey=new Map(keys.map((k,i)=>[k,cards[i]]));
- gallery.replaceChildren(...COMMON_TEMPLATES.map(k=>byKey.get(k)).filter(Boolean));
- const more=$('more-gallery'),extra=['player','popup',...keys.filter(k=>!COMMON_TEMPLATES.includes(k)&&!['player','popup'].includes(k))];more.replaceChildren(...extra.map(k=>byKey.get(k)));
-}
+function renderGallery(){renderCarrierGallery();}
 function primaryText(key){
  if(['chat','dialogue'].includes(key)){const data=conversation(key);return data.messages.map(m=>m.role===null?m.body:(data.roles[m.role]?.name||'')+'：'+m.body).join('\n');}
  return String(valuesFor(key).body??'');
 }
 function hasPersonalText(text){return !!text.trim()&&!/^演示文字[\s：:、|]*$/.test(text)&&!!text.replace(/演示文字|[\s：:、|]/g,'');}
-function chooseTemplate(key){
- const previous=state.template,text=state.hasWork&&state.mode==='template'?primaryText(previous):'';
- if(['chat','dialogue'].includes(key)&&!state.sharedKey)state.sharedKey=['chat','dialogue'].includes(previous)&&state.hasWork?previous:key;
- messagePage=0;state.mode='template';state.template=key;state.tab='content';
- if(previous!==key)importUndo=null;
- carryOffer=previous!==key&&hasPersonalText(text)&&['letter','typography','theme','social','moments','news','details'].includes(key)?{text,from:metadata[previous][0],to:key}:null;
- carryUndo=null;openEditor();
-}
-function renderFields(){
- renderFieldsBase();renderInteractionFields();
- const styles=$('style-fields'),palette=styles.querySelector('.palette');
- if(palette){
-  const details=document.createElement('details');details.className='fine-style';const summary=document.createElement('summary');summary.textContent='微调颜色、字体与布局';details.append(summary);
-  Array.from(styles.children).filter(x=>x!==palette).forEach(x=>details.append(x));styles.append(details);
- }
- if(carryOffer?.to===state.template){
-  const box=document.createElement('div');box.className='carry-note';const text=document.createElement('p');text.textContent='可以把“'+carryOffer.from+'”的正文带到这里。原模板的内容仍保留。';
-  const apply=button('带入并替换本模板正文',()=>{const values=valuesFor(state.template);carryUndo={template:state.template,body:values.body};values.body=carryOffer.text;state.values[state.template]=values;carryOffer=null;renderFields();refresh();},'quiet');
-  const dismiss=button('保持本模板内容',()=>{carryOffer=null;renderFields();},'quiet');box.append(text,apply,dismiss);$('content-fields').prepend(box);
- }else if(carryUndo?.template===state.template){
-  $('content-fields').prepend(button('撤销正文带入',()=>{const values=valuesFor(state.template);values.body=carryUndo.body;state.values[state.template]=values;carryUndo=null;renderFields();refresh();},'quiet'));
- }
-}
+function chooseTemplate(key){selectAppearance(key);}
+function renderFields(){renderConsolidatedFields();}
 function preflightContent(){
  if(state.mode==='free')return;
  const k=state.template,v=valuesFor(k),count=s=>String(s).split(/\r?\n/).filter(x=>x.trim()).length;
@@ -874,8 +1380,8 @@ function preflightContent(){
  if(k==='chapters'){const groups=String(v.chapters).split(/^[ \t]*---[ \t]*$/m).filter(x=>x.trim());requireMax(groups.length,20,'章节');groups.forEach(x=>requireMax(count(x),200,'单章段落'));}
  if(k==='cards'){const groups=String(v.cards).split(/^[ \t]*---[ \t]*$/m).filter(x=>x.trim());requireMax(groups.length,20,'档案');groups.forEach(x=>requireMax(Math.max(0,count(x)-1),30,'单张档案字段'));}
  if(k==='footnote')requireMax((String(v.body).match(/\[\[(.+?)\]\]/g)||[]).length,30,'脚注');
- if(k==='moments'){requireMax(count(v.comments),30,'评论');requireMax(String(v.likes).split(/[、,，\s]+/).filter(Boolean).length,30,'点赞名单');}
- if(k==='social')requireMax(count(v.replies),30,'回复');
+ if(k==='moments'){if(v.withComments)requireMax(count(v.comments),30,'评论');if(v.withLikes)requireMax(String(v.likes).split(/[、,，\s]+/).filter(Boolean).length,30,'点赞名单');}
+ if(k==='social'&&v.withReplies)requireMax(count(v.replies),30,'回复');
 }
 function showGenerationError(error){
  errors=[error.message||String(error)];$('status').textContent='需要检查';$('status').className='status error';$('warnings').hidden=false;$('warnings').textContent=errors[0];
@@ -928,7 +1434,7 @@ function enhanceSimpleUI(){
  for(const button of document.querySelectorAll('[data-copy]'))button.addEventListener('click',()=>{if(errors.length)return;$('copy-progress').textContent=button.dataset.copy==='css-output'?'下一步：在 AO3 创建或更新皮肤，再复制正文。':'已准备正文；贴入 AO3 的 HTML 编辑器后，点 Preview 检查。';});
 }
 
-enhanceSimpleUI();attachBulk();renderGallery();showStart();if(state.hasWork)refresh();if(!storageOK)$('save-status').textContent='请用草稿文件保存';
+initializeConsolidationUI();enhanceSimpleUI();attachBulk();renderGallery();showStart();if(state.hasWork)refresh();if(!storageOK)$('save-status').textContent='请用草稿文件保存';
 })();
 
 </script></body></html>
